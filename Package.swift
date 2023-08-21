@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .target(
           name: "FrisbuyStories",
-          dependencies: ["FrisbuyStoriesSDK"],
+          dependencies: ["FrisbuyStoriesSDK, SDWebImage, SDWebImageVideoCoder"],
           path: "Sources",
           cSettings: [
               .headerSearchPath(""),
