@@ -10,10 +10,6 @@ let package = Package(
             name: "FrisbuyStories",
             targets: ["FrisbuyStories"]),
     ],
-    dependencies: [
-      .package(name: "SDWebImage", url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0"),
-      .package(name: "SDWebImageVideoCoder", url: "https://github.com/SDWebImage/SDWebImageVideoCoder.git", from: "0.2.0")
-    ],
     targets: [
         .target(
           name: "FrisbuyStories",
@@ -23,10 +19,11 @@ let package = Package(
               .headerSearchPath(""),
               ]
         ),
-        .testTarget(
-          name: "FrisbuyStoriesTests",
-          dependencies: ["FrisbuyStories"]),
         .binaryTarget(name: "FrisbuyStoriesSDK",
                       path: "Artifacts/FrisbuyStoriesSDK.xcframework"),
+        .binaryTarget(name: "SDWebImage",
+                      path: "Artifacts/SDWebImage.xcframework"),
+        .binaryTarget(name: "SDWebImageVideoCoder",
+                      path: "Artifacts/SDWebImageVideoCoder.xcframework"),
     ]
 )
