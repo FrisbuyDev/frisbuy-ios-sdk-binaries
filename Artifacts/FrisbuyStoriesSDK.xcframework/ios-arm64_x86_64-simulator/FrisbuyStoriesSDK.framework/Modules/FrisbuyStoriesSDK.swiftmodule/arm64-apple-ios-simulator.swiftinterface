@@ -1,0 +1,161 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name FrisbuyStoriesSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import CoreMedia
+import Foundation
+@_exported import FrisbuyStoriesSDK
+import QuickLook
+import SDWebImage
+import SDWebImageVideoCoder
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public struct LinearCardAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
+  public var minAlpha: CoreFoundation.CGFloat
+  public var itemSpacing: CoreFoundation.CGFloat
+  public var scaleRate: CoreFoundation.CGFloat
+  public init(minAlpha: CoreFoundation.CGFloat = 0.5, itemSpacing: CoreFoundation.CGFloat = 0.4, scaleRate: CoreFoundation.CGFloat = 0.7)
+  public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+public struct Album {
+}
+public struct Story {
+  public var snapsCount: Swift.Int {
+    get
+  }
+}
+public struct FrisbuyPost {
+}
+public struct ProviderPost {
+}
+public struct Media {
+}
+public struct User {
+}
+public struct Link {
+  public var id: Swift.Int64
+  public var link: Swift.String
+  public var title: Swift.String
+  public var fio: Swift.String
+  public var profileLink: Swift.String
+  public var marker: [Swift.String : Any]
+  public var sku: FrisbuyStoriesSDK.Sku
+  public var isSimilar: Swift.Bool
+}
+public struct Sku {
+}
+public enum FormStrory : Swift.String {
+  case round
+  case square
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class FrisbuyStories : UIKit.UICollectionViewController {
+  @_Concurrency.MainActor(unsafe) convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: FrisbuyStoriesSDK.FrisbuyStoriesDelegate?, formStrory: FrisbuyStoriesSDK.FormStrory = FormStrory.square)
+  @_Concurrency.MainActor(unsafe) @objc override final public func loadView()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) final public func reloadData(params: [Swift.String : Any] = [String: Any]())
+  @_Concurrency.MainActor(unsafe) @objc override final public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc override final public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc override final public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) @objc override final public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(collectionViewLayout layout: UIKit.UICollectionViewLayout)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct PageAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
+  public var scaleRate: CoreFoundation.CGFloat
+  public init(scaleRate: CoreFoundation.CGFloat = 0.2)
+  public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+public struct ParallaxAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
+  public var speed: CoreFoundation.CGFloat
+  public init(speed: CoreFoundation.CGFloat = 0.5)
+  public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AnimatedCollectionViewLayout : UIKit.UICollectionViewFlowLayout {
+  @_Concurrency.MainActor(unsafe) public var animator: FrisbuyStoriesSDK.LayoutAttributesAnimator?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layoutAttributesClass: Swift.AnyClass {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutAttributesForElements(in rect: CoreFoundation.CGRect) -> [UIKit.UICollectionViewLayoutAttributes]?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func shouldInvalidateLayout(forBoundsChange newBounds: CoreFoundation.CGRect) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AnimatedCollectionViewLayoutAttributes : UIKit.UICollectionViewLayoutAttributes {
+  @_Concurrency.MainActor(unsafe) public var contentView: UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) public var scrollDirection: UIKit.UICollectionView.ScrollDirection
+  @_Concurrency.MainActor(unsafe) public var startOffset: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var middleOffset: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var endOffset: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CoverView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+public struct SnapInAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
+  public init()
+  public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+public struct CrossFadeAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
+  public init()
+  public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+public protocol LayoutAttributesAnimator {
+  func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+public struct CubeAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
+  public var perspective: CoreFoundation.CGFloat
+  public var totalAngle: CoreFoundation.CGFloat
+  public init(perspective: CoreFoundation.CGFloat = -1 / 500, totalAngle: CoreFoundation.CGFloat = .pi / 2)
+  public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+public struct RotateInOutAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
+  public var minAlpha: CoreFoundation.CGFloat
+  public var maxRotate: CoreFoundation.CGFloat
+  public init(minAlpha: CoreFoundation.CGFloat = 0, maxRotate: CoreFoundation.CGFloat = .pi / 4)
+  public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+public struct ZoomInOutAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
+  public var scaleRate: CoreFoundation.CGFloat
+  public init(scaleRate: CoreFoundation.CGFloat = 0.2)
+  public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+public let progressIndicatorViewTag: Swift.Int
+public let progressViewTag: Swift.Int
+extension UIKit.UIImageView {
+  @_Concurrency.MainActor(unsafe) public func sd_setImage(with: Foundation.URL?)
+}
+extension UIKit.UIImage {
+  public static func named(_ value: Swift.String) -> UIKit.UIImage?
+}
+public enum Result<T> {
+  case success(T)
+  case failure
+}
+extension Foundation.NSNotification.Name {
+  public static let spb_pause: Foundation.NSNotification.Name
+  public static let spb_resume: Foundation.NSNotification.Name
+  public static let updatedVisible: Foundation.NSNotification.Name
+}
+public protocol FrisbuyStoriesDelegate {
+  func didSelect(link: FrisbuyStoriesSDK.Link)
+  func buyButtonTapped(link: FrisbuyStoriesSDK.Link)
+}
+extension FrisbuyStoriesSDK.FormStrory : Swift.Equatable {}
+extension FrisbuyStoriesSDK.FormStrory : Swift.Hashable {}
+extension FrisbuyStoriesSDK.FormStrory : Swift.RawRepresentable {}

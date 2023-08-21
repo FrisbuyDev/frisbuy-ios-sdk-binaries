@@ -1,0 +1,11 @@
+framework module FrisbuyStoriesSDK {
+  umbrella header "FrisbuyStoriesSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module FrisbuyStoriesSDK.Swift {
+  header "FrisbuyStoriesSDK-Swift.h"
+  requires objc
+}
