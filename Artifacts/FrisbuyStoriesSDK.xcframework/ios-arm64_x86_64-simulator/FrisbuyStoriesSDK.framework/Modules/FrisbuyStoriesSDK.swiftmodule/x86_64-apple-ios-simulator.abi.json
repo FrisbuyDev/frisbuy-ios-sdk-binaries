@@ -986,17 +986,23 @@
           {
             "kind": "Function",
             "name": "segmentedProgressBarFinished",
-            "printedName": "segmentedProgressBarFinished()",
+            "printedName": "segmentedProgressBarFinished(index:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17FrisbuyStoriesSDK0B8DetailVCC28segmentedProgressBarFinishedyyF",
-            "mangledName": "$s17FrisbuyStoriesSDK0B8DetailVCC28segmentedProgressBarFinishedyyF",
+            "usr": "s:17FrisbuyStoriesSDK0B8DetailVCC28segmentedProgressBarFinished5indexySi_tF",
+            "mangledName": "$s17FrisbuyStoriesSDK0B8DetailVCC28segmentedProgressBarFinished5indexySi_tF",
             "moduleName": "FrisbuyStoriesSDK",
             "isOpen": true,
             "declAttributes": [
@@ -13331,17 +13337,23 @@
           {
             "kind": "Function",
             "name": "segmentedProgressBarFinished",
-            "printedName": "segmentedProgressBarFinished()",
+            "printedName": "segmentedProgressBarFinished(index:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17FrisbuyStoriesSDK17AlbumDetailCVCellC28segmentedProgressBarFinishedyyF",
-            "mangledName": "$s17FrisbuyStoriesSDK17AlbumDetailCVCellC28segmentedProgressBarFinishedyyF",
+            "usr": "s:17FrisbuyStoriesSDK17AlbumDetailCVCellC28segmentedProgressBarFinished5indexySi_tF",
+            "mangledName": "$s17FrisbuyStoriesSDK17AlbumDetailCVCellC28segmentedProgressBarFinished5indexySi_tF",
             "moduleName": "FrisbuyStoriesSDK",
             "isOpen": true,
             "declAttributes": [
@@ -14018,17 +14030,23 @@
           {
             "kind": "Function",
             "name": "segmentedProgressBarFinished",
-            "printedName": "segmentedProgressBarFinished()",
+            "printedName": "segmentedProgressBarFinished(index:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17FrisbuyStoriesSDK17MediaCellDelegateP28segmentedProgressBarFinishedyyF",
-            "mangledName": "$s17FrisbuyStoriesSDK17MediaCellDelegateP28segmentedProgressBarFinishedyyF",
+            "usr": "s:17FrisbuyStoriesSDK17MediaCellDelegateP28segmentedProgressBarFinished5indexySi_tF",
+            "mangledName": "$s17FrisbuyStoriesSDK17MediaCellDelegateP28segmentedProgressBarFinished5indexySi_tF",
             "moduleName": "FrisbuyStoriesSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : FrisbuyStoriesSDK.MediaCellDelegate>",
             "sugared_genericSig": "<Self where Self : FrisbuyStoriesSDK.MediaCellDelegate>",
@@ -16451,17 +16469,23 @@
           {
             "kind": "Function",
             "name": "segmentedProgressBarFinished",
-            "printedName": "segmentedProgressBarFinished()",
+            "printedName": "segmentedProgressBarFinished(index:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17FrisbuyStoriesSDK7MediaVCC28segmentedProgressBarFinishedyyF",
-            "mangledName": "$s17FrisbuyStoriesSDK7MediaVCC28segmentedProgressBarFinishedyyF",
+            "usr": "s:17FrisbuyStoriesSDK7MediaVCC28segmentedProgressBarFinished5indexySi_tF",
+            "mangledName": "$s17FrisbuyStoriesSDK7MediaVCC28segmentedProgressBarFinished5indexySi_tF",
             "moduleName": "FrisbuyStoriesSDK",
             "isOpen": true,
             "declAttributes": [
@@ -20959,17 +20983,23 @@
           {
             "kind": "Function",
             "name": "segmentedProgressBarFinished",
-            "printedName": "segmentedProgressBarFinished()",
+            "printedName": "segmentedProgressBarFinished(index:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17FrisbuyStoriesSDK28SegmentedProgressBarDelegateP09segmentedeF8FinishedyyF",
-            "mangledName": "$s17FrisbuyStoriesSDK28SegmentedProgressBarDelegateP09segmentedeF8FinishedyyF",
+            "usr": "s:17FrisbuyStoriesSDK28SegmentedProgressBarDelegateP09segmentedeF8Finished5indexySi_tF",
+            "mangledName": "$s17FrisbuyStoriesSDK28SegmentedProgressBarDelegateP09segmentedeF8Finished5indexySi_tF",
             "moduleName": "FrisbuyStoriesSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : FrisbuyStoriesSDK.SegmentedProgressBarDelegate>",
             "sugared_genericSig": "<Self where Self : FrisbuyStoriesSDK.SegmentedProgressBarDelegate>",
@@ -25189,20 +25219,14 @@
         "name": "SDWebImage",
         "printedName": "SDWebImage",
         "declKind": "Import",
-        "moduleName": "FrisbuyStoriesSDK",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "FrisbuyStoriesSDK"
       },
       {
         "kind": "Import",
         "name": "SDWebImageVideoCoder",
         "printedName": "SDWebImageVideoCoder",
         "declKind": "Import",
-        "moduleName": "FrisbuyStoriesSDK",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "FrisbuyStoriesSDK"
       },
       {
         "kind": "TypeDecl",
@@ -29827,17 +29851,23 @@
           {
             "kind": "Function",
             "name": "segmentedProgressBarFinished",
-            "printedName": "segmentedProgressBarFinished()",
+            "printedName": "segmentedProgressBarFinished(index:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17FrisbuyStoriesSDK17StoryDetailCVCellC28segmentedProgressBarFinishedyyF",
-            "mangledName": "$s17FrisbuyStoriesSDK17StoryDetailCVCellC28segmentedProgressBarFinishedyyF",
+            "usr": "s:17FrisbuyStoriesSDK17StoryDetailCVCellC28segmentedProgressBarFinished5indexySi_tF",
+            "mangledName": "$s17FrisbuyStoriesSDK17StoryDetailCVCellC28segmentedProgressBarFinished5indexySi_tF",
             "moduleName": "FrisbuyStoriesSDK",
             "isOpen": true,
             "declAttributes": [
@@ -33875,252 +33905,245 @@
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 412,
+      "offset": 408,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 425,
+      "offset": 421,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 524,
+      "offset": 520,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 551,
+      "offset": 547,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 612,
+      "offset": 608,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 659,
+      "offset": 655,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 714,
+      "offset": 710,
       "length": 27,
       "value": "\"frisbuy.albumDetailCVCell\""
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 848,
+      "offset": 844,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 925,
+      "offset": 921,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1175,
+      "offset": 1171,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1404,
+      "offset": 1400,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 1490,
+      "offset": 1486,
       "length": 7,
       "value": "\"cross\""
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1575,
+      "offset": 1571,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1749,
+      "offset": 1745,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 1795,
+      "offset": 1791,
       "length": 11,
       "value": "\"speakerOn\""
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 1850,
+      "offset": 1846,
       "length": 12,
       "value": "\"speakerOff\""
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2035,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2068,
+      "offset": 2031,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2512,
+      "offset": 2540,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 2550,
+      "offset": 2578,
       "length": 9,
       "value": "\"arrowUp\""
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2637,
+      "offset": 2665,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 2701,
+      "offset": 2729,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 2730,
+      "offset": 2758,
       "length": 31,
       "value": "\"Показать товары\""
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2813,
+      "offset": 2841,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2876,
+      "offset": 2904,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3003,
+      "offset": 3031,
       "length": 4,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3012,
+      "offset": 3040,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3082,
+      "offset": 3110,
       "length": 4,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3091,
+      "offset": 3119,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3160,
+      "offset": 3188,
       "length": 4,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3169,
+      "offset": 3197,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 10443,
+      "offset": 10503,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 10933,
+      "offset": 11104,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11195,
+      "offset": 11366,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11610,
+      "offset": 11781,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13839,
+      "offset": 14065,
       "length": 1,
       "value": "0"
     },
@@ -34386,70 +34409,70 @@
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 468,
+      "offset": 478,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 568,
+      "offset": 578,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 591,
+      "offset": 601,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 629,
+      "offset": 639,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 1695,
+      "offset": 1705,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 1741,
+      "offset": 1751,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 1805,
+      "offset": 1815,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 2325,
+      "offset": 2335,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 7208,
+      "offset": 7218,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "StringLiteral",
-      "offset": 168,
+      "offset": 178,
       "length": 20,
       "value": "\"FrisbuyStoriesSDK.SegmentedProgressBar\""
     },

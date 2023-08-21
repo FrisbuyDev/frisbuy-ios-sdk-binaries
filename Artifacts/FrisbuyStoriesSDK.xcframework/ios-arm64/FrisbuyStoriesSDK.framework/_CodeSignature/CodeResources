@@ -8,22 +8,6 @@
 		<data>
 		Kzzakd7RClbkNBcXOqZultrJE8Q=
 		</data>
-		<key>Frameworks/SDWebImage.framework/Info.plist</key>
-		<data>
-		qEF7MBEEUP4dLnvb0NfMSxmNw24=
-		</data>
-		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
-		<data>
-		XVhw5A6wJC0UjvBHRfX5BrdOLys=
-		</data>
-		<key>Frameworks/SDWebImageVideoCoder.framework/Info.plist</key>
-		<data>
-		KKm5iRv0AUeqslnDfxLFzi5zM28=
-		</data>
-		<key>Frameworks/SDWebImageVideoCoder.framework/SDWebImageVideoCoder</key>
-		<data>
-		SxFtOm4p2//kQLlrfJI83JZHbQo=
-		</data>
 		<key>Headers/FrisbuyStoriesSDK-Swift.h</key>
 		<data>
 		vE8pPIm92QvfKwAk5jM9PfStoqc=
@@ -38,11 +22,11 @@
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		bmb9TjxsGspgSUQ3bF207i6qJDw=
+		bgGDFaUG4jsGioXLF+++xNCYRu0=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		KlZlCqTyjbrqRdjP+aPaKEGACQo=
+		agpbwjXZsUbak2HDY2VWiBooH9Q=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -50,11 +34,11 @@
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		KlZlCqTyjbrqRdjP+aPaKEGACQo=
+		agpbwjXZsUbak2HDY2VWiBooH9Q=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		P5yAZ643T33qdwCnN822YTPIP+Y=
+		pR+qcdZo4kNTwi5rDUIgo05ZjRw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,34 +78,6 @@
 			YcwTW+AU5g1lgYiU7g6rG1npJl5MmKTAavwCvDwQhLw=
 			</data>
 		</dict>
-		<key>Frameworks/SDWebImage.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HI4YCyiGmfG0muTqZgHHD5lB5R5Pa9S+sx2/fGurDy4=
-			</data>
-		</dict>
-		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6TGyNuYbqy4XRbX5T7gfqHLew7kBJzp33cWBczMxO50=
-			</data>
-		</dict>
-		<key>Frameworks/SDWebImageVideoCoder.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			He88rBaSddDJvhceCMznIe0/VZnzZ+YOXji8JUHuU+Y=
-			</data>
-		</dict>
-		<key>Frameworks/SDWebImageVideoCoder.framework/SDWebImageVideoCoder</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0LUO7coJoovoT0TyIZxW/tttx8NWKOe/lk393HwgrZw=
-			</data>
-		</dict>
 		<key>Headers/FrisbuyStoriesSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -140,14 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K5KaDfdNFqhHwBY1jSVWm0K7CC9RwhSbt4rQsWjcg8g=
+			Cj0CpyUShdM2aDBXE0eDBpN0JrKaf3a1D97fada/aZM=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZrO1j3yWwjlCwrjM9xd+ApZBIS9NPHSNZ/bqER8aQVo=
+			4ZH2vRMu4BDaSXMpO1zYoGTkTwMJAqlhecwIx2+hrWk=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -161,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZrO1j3yWwjlCwrjM9xd+ApZBIS9NPHSNZ/bqER8aQVo=
+			4ZH2vRMu4BDaSXMpO1zYoGTkTwMJAqlhecwIx2+hrWk=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			azeTRR0es2f9Cqqsd1vUEYHUSW0t8r0ngoXAefRYq5U=
+			xHwLujb6VLQMqorrGKz3k8p9NbhS1+OgKtv1Z1J/RNA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

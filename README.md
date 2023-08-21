@@ -7,7 +7,7 @@ FrisbuyStories позволяет вашему iOS приложению испо
 ### Через SPM
 
 ```
-.package(name: "FrisbuyStories", url: "https://gitlab.com/frisbuy/mobile-sdk/frisbuy-ios-sdk", .upToNextMajor(from: "1.0.0")),
+.package(name: "FrisbuyStories", url: "https://gitlab.com/frisbuy/mobile-sdk/frisbuy-ios-sdk-binaries", .upToNextMajor(from: "1.0.0")),
 ```
 
 ## Использование
