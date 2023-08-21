@@ -25179,17 +25179,30 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrisbuyStoriesSDK"
+      },
+      {
+        "kind": "Import",
         "name": "SDWebImage",
         "printedName": "SDWebImage",
         "declKind": "Import",
-        "moduleName": "FrisbuyStoriesSDK"
+        "moduleName": "FrisbuyStoriesSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
         "name": "SDWebImageVideoCoder",
         "printedName": "SDWebImageVideoCoder",
         "declKind": "Import",
-        "moduleName": "FrisbuyStoriesSDK"
+        "moduleName": "FrisbuyStoriesSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -33461,1736 +33474,1736 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/LinearCardAttributesAnimator.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/LinearCardAttributesAnimator.swift",
       "kind": "FloatLiteral",
       "offset": 819,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/LinearCardAttributesAnimator.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/LinearCardAttributesAnimator.swift",
       "kind": "FloatLiteral",
       "offset": 847,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/LinearCardAttributesAnimator.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/LinearCardAttributesAnimator.swift",
       "kind": "FloatLiteral",
       "offset": 873,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "BooleanLiteral",
       "offset": 355,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "StringLiteral",
       "offset": 441,
       "length": 7,
       "value": "\"cross\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "IntegerLiteral",
       "offset": 571,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "BooleanLiteral",
       "offset": 605,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "IntegerLiteral",
       "offset": 1043,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "StringLiteral",
       "offset": 1129,
       "length": 9,
       "value": "\"arrowUp\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1216,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "FloatLiteral",
       "offset": 1280,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "StringLiteral",
       "offset": 1309,
       "length": 31,
       "value": "\"Показать товары\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "IntegerLiteral",
       "offset": 1392,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "IntegerLiteral",
       "offset": 1455,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "FloatLiteral",
       "offset": 1582,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "FloatLiteral",
       "offset": 1591,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "FloatLiteral",
       "offset": 1661,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "FloatLiteral",
       "offset": 1670,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "FloatLiteral",
       "offset": 1739,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoriesDetailVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoriesDetailVC.swift",
       "kind": "FloatLiteral",
       "offset": 1748,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/PlayerView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/PlayerView.swift",
       "kind": "StringLiteral",
       "offset": 2116,
       "length": 15,
       "value": "\"Unknown error\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryCVCell.swift",
       "kind": "StringLiteral",
       "offset": 87,
       "length": 13,
       "value": "\"StoryCVCell\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 297,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 496,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 718,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 775,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1029,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/Models.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/Models.swift",
       "kind": "BooleanLiteral",
       "offset": 1154,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/Models.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/Models.swift",
       "kind": "BooleanLiteral",
       "offset": 5515,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
       "offset": 478,
       "length": 2,
       "value": "52"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
       "offset": 880,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
       "offset": 924,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
       "offset": 1088,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "StringLiteral",
       "offset": 1126,
       "length": 11,
       "value": "\"arrowDown\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1215,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "StringLiteral",
       "offset": 1244,
       "length": 27,
       "value": "\"Скрыть товары\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
       "offset": 1323,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
       "offset": 1386,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
       "offset": 1513,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
       "offset": 1522,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
       "offset": 1592,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
       "offset": 1601,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
       "offset": 1670,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/DetailMediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
       "offset": 1679,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStories.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStories.swift",
       "kind": "StringLiteral",
       "offset": 82,
       "length": 7,
       "value": "\"round\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStories.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStories.swift",
       "kind": "StringLiteral",
       "offset": 108,
       "length": 8,
       "value": "\"square\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStories.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStories.swift",
       "kind": "StringLiteral",
       "offset": 82,
       "length": 7,
       "value": "\"round\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStories.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStories.swift",
       "kind": "StringLiteral",
       "offset": 108,
       "length": 8,
       "value": "\"square\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStories.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStories.swift",
       "kind": "StringLiteral",
       "offset": 488,
       "length": 36,
       "value": "\"Историй не найдено\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStories.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
       "offset": 572,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStories.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
       "offset": 624,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStories.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
       "offset": 683,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStories.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
       "offset": 798,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/PageAttributesAnimator.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/PageAttributesAnimator.swift",
       "kind": "FloatLiteral",
       "offset": 509,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 19,
       "value": "\"AlbumDetailCVCell\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 302,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 412,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 425,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 524,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 551,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 612,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 659,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 714,
       "length": 27,
       "value": "\"frisbuy.albumDetailCVCell\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 848,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 925,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1175,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1404,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 1490,
       "length": 7,
       "value": "\"cross\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1575,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1749,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 1795,
       "length": 11,
       "value": "\"speakerOn\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 1850,
       "length": 12,
       "value": "\"speakerOff\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2035,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2068,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2512,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 2550,
       "length": 9,
       "value": "\"arrowUp\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2637,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 2701,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 2730,
       "length": 31,
       "value": "\"Показать товары\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2813,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2876,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3003,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3012,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3082,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3091,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3160,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3169,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 10443,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 10933,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 11195,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 11610,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 13839,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/ParallaxAttributesAnimator.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/ParallaxAttributesAnimator.swift",
       "kind": "FloatLiteral",
       "offset": 582,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/AnimatedCollectionViewLayout.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/AnimatedCollectionViewLayout.swift",
       "kind": "IntegerLiteral",
       "offset": 3926,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/AnimatedCollectionViewLayout.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/AnimatedCollectionViewLayout.swift",
       "kind": "IntegerLiteral",
       "offset": 4343,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/AnimatedCollectionViewLayout.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/AnimatedCollectionViewLayout.swift",
       "kind": "IntegerLiteral",
       "offset": 4757,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaVC.swift",
       "kind": "StringLiteral",
       "offset": 33,
       "length": 7,
       "value": "\"FrisbuyStoriesSDK.MediaVC\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaVC.swift",
       "kind": "StringLiteral",
       "offset": 33,
       "length": 7,
       "value": "\"FrisbuyStoriesSDK.MediaVC\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FlashButton.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FlashButton.swift",
       "kind": "FloatLiteral",
       "offset": 785,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FlashButton.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FlashButton.swift",
       "kind": "FloatLiteral",
       "offset": 911,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/CoverView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/CoverView.swift",
       "kind": "IntegerLiteral",
       "offset": 186,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/CoverView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/CoverView.swift",
       "kind": "IntegerLiteral",
       "offset": 196,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/CoverView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/CoverView.swift",
       "kind": "IntegerLiteral",
       "offset": 223,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/CoverView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/CoverView.swift",
       "kind": "FloatLiteral",
       "offset": 233,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/CoverView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/CoverView.swift",
       "kind": "Array",
       "offset": 276,
       "length": 10,
       "value": "[0.0, 0.6]"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/CoverView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/CoverView.swift",
       "kind": "FloatLiteral",
       "offset": 328,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/CoverView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/CoverView.swift",
       "kind": "FloatLiteral",
       "offset": 336,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/CoverView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/CoverView.swift",
       "kind": "FloatLiteral",
       "offset": 380,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/CoverView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/CoverView.swift",
       "kind": "FloatLiteral",
       "offset": 388,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumCVCell.swift",
       "kind": "StringLiteral",
       "offset": 87,
       "length": 13,
       "value": "\"AlbumCVCell\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 297,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 496,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 718,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AlbumCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 775,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "StringLiteral",
       "offset": 88,
       "length": 12,
       "value": "\"LinkCVCell\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 340,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 390,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 649,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 731,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 896,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 978,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1147,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1244,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "StringLiteral",
       "offset": 1270,
       "length": 14,
       "value": "\"Купить\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1360,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1723,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/CubeAttributesAnimator.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/CubeAttributesAnimator.swift",
       "kind": "IntegerLiteral",
       "offset": 657,
       "length": 2,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/CubeAttributesAnimator.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/CubeAttributesAnimator.swift",
       "kind": "IntegerLiteral",
       "offset": 662,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/CubeAttributesAnimator.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/CubeAttributesAnimator.swift",
       "kind": "IntegerLiteral",
       "offset": 695,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/SegmentedProgressBar.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
       "offset": 468,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/SegmentedProgressBar.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
       "offset": 568,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/SegmentedProgressBar.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "BooleanLiteral",
       "offset": 591,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/SegmentedProgressBar.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 629,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/SegmentedProgressBar.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "BooleanLiteral",
       "offset": 1695,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/SegmentedProgressBar.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 1741,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/SegmentedProgressBar.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
       "offset": 1805,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/SegmentedProgressBar.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
       "offset": 2325,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/SegmentedProgressBar.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 7208,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/SegmentedProgressBar.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/SegmentedProgressBar.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 20,
       "value": "\"FrisbuyStoriesSDK.SegmentedProgressBar\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/RotateInOutAttributesAnimator.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/RotateInOutAttributesAnimator.swift",
       "kind": "IntegerLiteral",
       "offset": 672,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/RotateInOutAttributesAnimator.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/RotateInOutAttributesAnimator.swift",
       "kind": "IntegerLiteral",
       "offset": 702,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/AnimatedCollectionViewLayout\/ZoomInOutAttributesAnimator.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AnimatedCollectionViewLayout\/ZoomInOutAttributesAnimator.swift",
       "kind": "FloatLiteral",
       "offset": 527,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStoriesVM.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
       "offset": 211,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStoriesVM.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStoriesVM.swift",
       "kind": "StringLiteral",
       "offset": 270,
       "length": 26,
       "value": "\"frisbuy.frisbuyStoriesVM\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/FrisbuyStoriesVM.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
       "offset": 485,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 122,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 178,
       "length": 2,
       "value": "88"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 210,
       "length": 2,
       "value": "99"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 380,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 734,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 770,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 813,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 939,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 1107,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 1279,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 1487,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 1698,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryPreviewHeaderView.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryPreviewHeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 6643,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinksCVC.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinksCVC.swift",
       "kind": "BooleanLiteral",
       "offset": 161,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/LinkTVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/LinkTVCell.swift",
       "kind": "StringLiteral",
       "offset": 79,
       "length": 12,
       "value": "\"LinkTVCell\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 60,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 82,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 129,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 153,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 60,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 82,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 129,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 153,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "Dictionary",
       "offset": 518,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 538,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 556,
       "length": 35,
       "value": "\"application\/x-www-form-urlencoded\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 608,
       "length": 8,
       "value": "\"Accept\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/NetworkService.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 620,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 19,
       "value": "\"StoryDetailCVCell\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 309,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 419,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 432,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 531,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 558,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 619,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 666,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 27,
       "value": "\"frisbuy.storyDetailCVCell\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 855,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 932,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1182,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1411,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 1451,
       "length": 7,
       "value": "\"cross\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1581,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1615,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1789,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 1841,
       "length": 21,
       "value": "\"speaker.wave.3.fill\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 1948,
       "length": 20,
       "value": "\"speaker.slash.fill\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2177,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2210,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2654,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 2692,
       "length": 9,
       "value": "\"arrowUp\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2779,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 2843,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "StringLiteral",
       "offset": 2872,
       "length": 31,
       "value": "\"Показать товары\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2955,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 3018,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3145,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3154,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3224,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3233,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3302,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 3311,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 10731,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 11139,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 11395,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/StoryDetailCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/StoryDetailCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 11699,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "StringLiteral",
       "offset": 158,
       "length": 13,
       "value": "\"MediaCVCell\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 289,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 462,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 722,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "StringLiteral",
       "offset": 762,
       "length": 7,
       "value": "\"cross\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 892,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 926,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1270,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1320,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1355,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1416,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1617,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "StringLiteral",
       "offset": 1655,
       "length": 9,
       "value": "\"arrowUp\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1742,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 1806,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "StringLiteral",
       "offset": 1835,
       "length": 31,
       "value": "\"Показать товары\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1918,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1981,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 2108,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 2117,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 2187,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 2196,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 2265,
       "length": 4,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 2274,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2494,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2535,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "FloatLiteral",
       "offset": 2800,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "BooleanLiteral",
       "offset": 3138,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 3261,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 4483,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/MediaCVCell.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/MediaCVCell.swift",
       "kind": "IntegerLiteral",
       "offset": 3067,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/Extension+Notification.Name.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/Extension+Notification.Name.swift",
       "kind": "StringLiteral",
       "offset": 113,
       "length": 11,
       "value": "\"spb_pause\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/Extension+Notification.Name.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/Extension+Notification.Name.swift",
       "kind": "StringLiteral",
       "offset": 191,
       "length": 12,
       "value": "\"spb_resume\""
     },
     {
-      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/FrisbuyStoriesSDK\/Sources\/Extension+Notification.Name.swift",
+      "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/Extension+Notification.Name.swift",
       "kind": "StringLiteral",
       "offset": 274,
       "length": 16,
