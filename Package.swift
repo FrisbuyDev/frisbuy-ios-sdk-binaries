@@ -21,9 +21,5 @@ let package = Package(
         ),
         .binaryTarget(name: "FrisbuyStoriesSDK",
                       path: "Artifacts/FrisbuyStoriesSDK.xcframework"),
-        .binaryTarget(name: "SDWebImage",
-                      path: "Artifacts/SDWebImage.xcframework"),
-        .binaryTarget(name: "SDWebImageVideoCoder",
-                      path: "Artifacts/SDWebImageVideoCoder.xcframework"),
     ]
 )

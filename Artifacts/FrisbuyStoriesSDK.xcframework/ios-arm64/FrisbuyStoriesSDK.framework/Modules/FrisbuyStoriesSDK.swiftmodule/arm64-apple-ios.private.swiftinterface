@@ -8,8 +8,6 @@ import CoreMedia
 import Foundation
 @_exported import FrisbuyStoriesSDK
 import QuickLook
-import SDWebImage
-import SDWebImageVideoCoder
 import Swift
 import UIKit
 import _Concurrency
@@ -137,11 +135,17 @@ public struct ZoomInOutAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAn
 }
 public let progressIndicatorViewTag: Swift.Int
 public let progressViewTag: Swift.Int
-extension UIKit.UIImageView {
-  @_Concurrency.MainActor(unsafe) public func sd_setImage(with: Foundation.URL?)
-}
 extension UIKit.UIImage {
   public static func named(_ value: Swift.String) -> UIKit.UIImage?
+}
+public protocol SDWebImageManagerWrappedDelegate {
+  func loadImage(with: Foundation.URL?, progress: Any?, _ handler: @escaping ((UIKit.UIImage?, Foundation.Data?, Swift.Error?, Swift.Int, Swift.Bool, Foundation.URL?) -> Swift.Void))
+}
+@_hasMissingDesignatedInitializers public class SDWebImageManagerWrapped {
+  public static let shared: FrisbuyStoriesSDK.SDWebImageManagerWrapped
+  public var delegate: FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate?
+  public func loadImage(with: Foundation.URL?, progress: Any?, _ handler: @escaping ((UIKit.UIImage?, Foundation.Data?, Swift.Error?, Swift.Int, Swift.Bool, Foundation.URL?) -> Swift.Void))
+  @objc deinit
 }
 public enum Result<T> {
   case success(T)

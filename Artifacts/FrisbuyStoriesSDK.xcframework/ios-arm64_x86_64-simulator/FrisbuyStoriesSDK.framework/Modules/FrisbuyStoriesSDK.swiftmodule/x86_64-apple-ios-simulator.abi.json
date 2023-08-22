@@ -25215,18 +25215,153 @@
         "moduleName": "FrisbuyStoriesSDK"
       },
       {
-        "kind": "Import",
-        "name": "SDWebImage",
-        "printedName": "SDWebImage",
-        "declKind": "Import",
-        "moduleName": "FrisbuyStoriesSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SDWebImageVideoCoder",
-        "printedName": "SDWebImageVideoCoder",
-        "declKind": "Import",
-        "moduleName": "FrisbuyStoriesSDK"
+        "kind": "TypeDecl",
+        "name": "SDWebImageManagerWrappedDelegate",
+        "printedName": "SDWebImageManagerWrappedDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadImage",
+            "printedName": "loadImage(with:progress:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIImage?, Foundation.Data?, Swift.Error?, Swift.Int, Swift.Bool, Foundation.URL?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(UIKit.UIImage?, Foundation.Data?, Swift.Error?, Swift.Int, Swift.Bool, Foundation.URL?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIImage?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FrisbuyStoriesSDK32SDWebImageManagerWrappedDelegateP04loadE04with8progress_y10Foundation3URLVSg_ypSgySo7UIImageCSg_AG4DataVSgs5Error_pSgSiSbAJtctF",
+            "mangledName": "$s17FrisbuyStoriesSDK32SDWebImageManagerWrappedDelegateP04loadE04with8progress_y10Foundation3URLVSg_ypSgySo7UIImageCSg_AG4DataVSgs5Error_pSgSiSbAJtctF",
+            "moduleName": "FrisbuyStoriesSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate>",
+            "sugared_genericSig": "<Self where Self : FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17FrisbuyStoriesSDK32SDWebImageManagerWrappedDelegateP",
+        "mangledName": "$s17FrisbuyStoriesSDK32SDWebImageManagerWrappedDelegateP",
+        "moduleName": "FrisbuyStoriesSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -25240,20 +25375,21 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SDWebImageManager",
-                "printedName": "SDWebImage.SDWebImageManager",
-                "usr": "c:objc(cs)SDWebImageManager"
+                "name": "SDWebImageManagerWrapped",
+                "printedName": "FrisbuyStoriesSDK.SDWebImageManagerWrapped",
+                "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC6sharedSo0deF0CvpZ",
-            "mangledName": "$s17FrisbuyStoriesSDK24SDWebImageManagerWrappedC6sharedSo0deF0CvpZ",
+            "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC6sharedACvpZ",
+            "mangledName": "$s17FrisbuyStoriesSDK24SDWebImageManagerWrappedC6sharedACvpZ",
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -25265,24 +25401,272 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SDWebImageManager",
-                    "printedName": "SDWebImage.SDWebImageManager",
-                    "usr": "c:objc(cs)SDWebImageManager"
+                    "name": "SDWebImageManagerWrapped",
+                    "printedName": "FrisbuyStoriesSDK.SDWebImageManagerWrapped",
+                    "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC6sharedSo0deF0CvgZ",
-                "mangledName": "$s17FrisbuyStoriesSDK24SDWebImageManagerWrappedC6sharedSo0deF0CvgZ",
+                "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC6sharedACvgZ",
+                "mangledName": "$s17FrisbuyStoriesSDK24SDWebImageManagerWrappedC6sharedACvgZ",
                 "moduleName": "FrisbuyStoriesSDK",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "Transparent",
                   "Final"
                 ],
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDWebImageManagerWrappedDelegate",
+                    "printedName": "FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate",
+                    "usr": "s:17FrisbuyStoriesSDK32SDWebImageManagerWrappedDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC8delegateAA0defG8Delegate_pSgvp",
+            "mangledName": "$s17FrisbuyStoriesSDK24SDWebImageManagerWrappedC8delegateAA0defG8Delegate_pSgvp",
+            "moduleName": "FrisbuyStoriesSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDWebImageManagerWrappedDelegate",
+                        "printedName": "FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate",
+                        "usr": "s:17FrisbuyStoriesSDK32SDWebImageManagerWrappedDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC8delegateAA0defG8Delegate_pSgvg",
+                "mangledName": "$s17FrisbuyStoriesSDK24SDWebImageManagerWrappedC8delegateAA0defG8Delegate_pSgvg",
+                "moduleName": "FrisbuyStoriesSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDWebImageManagerWrappedDelegate",
+                        "printedName": "FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate",
+                        "usr": "s:17FrisbuyStoriesSDK32SDWebImageManagerWrappedDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC8delegateAA0defG8Delegate_pSgvs",
+                "mangledName": "$s17FrisbuyStoriesSDK24SDWebImageManagerWrappedC8delegateAA0defG8Delegate_pSgvs",
+                "moduleName": "FrisbuyStoriesSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC8delegateAA0defG8Delegate_pSgvM",
+                "mangledName": "$s17FrisbuyStoriesSDK24SDWebImageManagerWrappedC8delegateAA0defG8Delegate_pSgvM",
+                "moduleName": "FrisbuyStoriesSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadImage",
+            "printedName": "loadImage(with:progress:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIImage?, Foundation.Data?, Swift.Error?, Swift.Int, Swift.Bool, Foundation.URL?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(UIKit.UIImage?, Foundation.Data?, Swift.Error?, Swift.Int, Swift.Bool, Foundation.URL?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIImage?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC04loadE04with8progress_y10Foundation3URLVSg_ypSgySo7UIImageCSg_AG4DataVSgs5Error_pSgSiSbAJtctF",
+            "mangledName": "$s17FrisbuyStoriesSDK24SDWebImageManagerWrappedC04loadE04with8progress_y10Foundation3URLVSg_ypSgySo7UIImageCSg_AG4DataVSgs5Error_pSgSiSbAJtctF",
+            "moduleName": "FrisbuyStoriesSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -25308,7 +25692,11 @@
         "usr": "s:17FrisbuyStoriesSDK24SDWebImageManagerWrappedC",
         "mangledName": "$s17FrisbuyStoriesSDK24SDWebImageManagerWrappedC",
         "moduleName": "FrisbuyStoriesSDK",
-        "isOpen": true
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -32870,136 +33258,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UIImageView",
-        "printedName": "UIImageView",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "sd_setImage",
-            "printedName": "sd_setImage(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So11UIImageViewC17FrisbuyStoriesSDKE11sd_setImage4withy10Foundation3URLVSg_tF",
-            "mangledName": "$sSo11UIImageViewC17FrisbuyStoriesSDKE11sd_setImage4withy10Foundation3URLVSg_tF",
-            "moduleName": "FrisbuyStoriesSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIImageView",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIImageView",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UIImage",
         "printedName": "UIImage",
         "children": [
@@ -34143,7 +34401,7 @@
     {
       "filePath": "\/Users\/sergeykolokolnikov\/Documents\/Projects\/Frisbuy\/frisbuy-ios-sdk\/Sources\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 14065,
+      "offset": 14119,
       "length": 1,
       "value": "0"
     },

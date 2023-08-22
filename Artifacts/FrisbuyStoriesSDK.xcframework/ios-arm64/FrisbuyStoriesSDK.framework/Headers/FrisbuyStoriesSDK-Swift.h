@@ -311,7 +311,6 @@ SWIFT_CLASS("_TtC17FrisbuyStoriesSDK14FrisbuyStories")
 
 
 
-
 #endif
 #if defined(__cplusplus)
 #endif

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/FrisbuyStoriesSDK-Swift.h</key>
 		<data>
-		u1gpbFnirXrceY0KHI+j27E752M=
+		2ZeBp38NCAQPBspZuRoTwBuj1R0=
 		</data>
 		<key>Headers/FrisbuyStoriesSDK.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bgGDFaUG4jsGioXLF+++xNCYRu0=
+		XU3hsNaE/W6ogoW5NsijwnrUTD0=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ee77KCXY3s4+d4kK/DMkqTZ1Q30=
+		X0IzkDasCNT3ytqb0sM3tv+qtd8=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ee77KCXY3s4+d4kK/DMkqTZ1Q30=
+		X0IzkDasCNT3ytqb0sM3tv+qtd8=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zQqhokyms5HtjiLhEHNjtQvYh3A=
+		4jH4pEZCL6Bwz3gjuzG3CLrasgI=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bgGDFaUG4jsGioXLF+++xNCYRu0=
+		XU3hsNaE/W6ogoW5NsijwnrUTD0=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0Gr5SR04YQZ+T+yFTDortgw9zB4=
+		T7J6putziu2FhPNtaOt0ZvDgOY8=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0Gr5SR04YQZ+T+yFTDortgw9zB4=
+		T7J6putziu2FhPNtaOt0ZvDgOY8=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rXyXHv8R7LLP4pDd81+MlzrQfZ8=
+		VlNnggqVU0Y7n0/8/h0N0mwHek4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,7 +102,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LfojQFqGnDKm0izfuBCqUpwLCiYid9yq5z6Q8ULE4WQ=
+			8h+GKP+kVNHZhCIS3umrwk72UVUbT9CiqAeW4VvrpHo=
 			</data>
 		</dict>
 		<key>Headers/FrisbuyStoriesSDK.h</key>
@@ -116,14 +116,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cj0CpyUShdM2aDBXE0eDBpN0JrKaf3a1D97fada/aZM=
+			pNzpc7BVvv8mpVSPo6pjaIfrnAjeU/WQytpFcGf29tQ=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4/OFd9WpGPPgcCh7P4AIvADzMCs0IBi8PVOE+L6iNwQ=
+			hKbLeMDKPBbhLLGAsK820vMfdnTn59v9zuuXKzyew4Q=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -137,28 +137,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4/OFd9WpGPPgcCh7P4AIvADzMCs0IBi8PVOE+L6iNwQ=
+			hKbLeMDKPBbhLLGAsK820vMfdnTn59v9zuuXKzyew4Q=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PLG5MrD8w/1KXuiXRN/8qrRwfVXMtxIBLrSdC4xq0Eo=
+			9cmV+c/CCKfLy1PR4WDQ/oYPqhPzAEmnQ9vgLYHBvbk=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cj0CpyUShdM2aDBXE0eDBpN0JrKaf3a1D97fada/aZM=
+			pNzpc7BVvv8mpVSPo6pjaIfrnAjeU/WQytpFcGf29tQ=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1fXJ9+rxhTLgQGg/5IjV7exdjOi9YCH17t47akOaL04=
+			VhQmo8LQ9/r7qozWCWLa2o4Zbrx1LAkPhZN1WGrU1r0=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -172,14 +172,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1fXJ9+rxhTLgQGg/5IjV7exdjOi9YCH17t47akOaL04=
+			VhQmo8LQ9/r7qozWCWLa2o4Zbrx1LAkPhZN1WGrU1r0=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kohjlbwvVjwT8nrdWaNIgUKnkudFwQsWXHUovPYSszc=
+			YIlYPYU5mE+qmUXO9lmhQWzoI1Jqf9Xpl3jPpp7BQuU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
