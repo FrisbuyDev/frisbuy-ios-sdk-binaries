@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name FrisbuyStoriesSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -30,7 +30,8 @@ public struct FrisbuyPost {
 }
 public struct ProviderPost {
 }
-public struct Media {
+public struct Media : Swift.Equatable {
+  public static func == (lhs: FrisbuyStoriesSDK.Media, rhs: FrisbuyStoriesSDK.Media) -> Swift.Bool
 }
 public struct User {
 }
@@ -56,7 +57,7 @@ public enum FormStrory : Swift.String {
   }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class FrisbuyStories : UIKit.UICollectionViewController {
-  @_Concurrency.MainActor(unsafe) convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: FrisbuyStoriesSDK.FrisbuyStoriesDelegate?, formStrory: FrisbuyStoriesSDK.FormStrory = FormStrory.square)
+  @_Concurrency.MainActor(unsafe) convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: (any FrisbuyStoriesSDK.FrisbuyStoriesDelegate)?, formStrory: FrisbuyStoriesSDK.FormStrory = FormStrory.square)
   @_Concurrency.MainActor(unsafe) @objc override final public func loadView()
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) final public func reloadData(params: [Swift.String : Any] = [String: Any]())
@@ -74,13 +75,16 @@ public struct PageAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimato
   public init(scaleRate: CoreFoundation.CGFloat = 0.2)
   public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
 }
+extension Foundation.FileManager {
+  public func secureCopyItem(at srcURL: Foundation.URL, to dstURL: Foundation.URL) -> Swift.Bool
+}
 public struct ParallaxAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
   public var speed: CoreFoundation.CGFloat
   public init(speed: CoreFoundation.CGFloat = 0.5)
   public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AnimatedCollectionViewLayout : UIKit.UICollectionViewFlowLayout {
-  @_Concurrency.MainActor(unsafe) public var animator: FrisbuyStoriesSDK.LayoutAttributesAnimator?
+  @_Concurrency.MainActor(unsafe) public var animator: (any FrisbuyStoriesSDK.LayoutAttributesAnimator)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layoutAttributesClass: Swift.AnyClass {
     @objc get
   }
@@ -108,6 +112,127 @@ public struct ParallaxAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAni
 public struct SnapInAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
   public init()
   public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+public enum AnimationType {
+  case none
+  case systemActivityIndicator
+  case horizontalCirclesPulse
+  case lineScaling
+  case singleCirclePulse
+  case multipleCirclePulse
+  case singleCircleScaleRipple
+  case multipleCircleScaleRipple
+  case circleSpinFade
+  case lineSpinFade
+  case circleRotateChase
+  case circleStrokeSpin
+  public static func == (a: FrisbuyStoriesSDK.AnimationType, b: FrisbuyStoriesSDK.AnimationType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AnimatedIcon {
+  case succeed
+  case failed
+  case added
+  public static func == (a: FrisbuyStoriesSDK.AnimatedIcon, b: FrisbuyStoriesSDK.AnimatedIcon) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AlertIcon {
+  case heart
+  case doc
+  case bookmark
+  case moon
+  case star
+  case exclamation
+  case flag
+  case message
+  case question
+  case bolt
+  case shuffle
+  case eject
+  case card
+  case rotate
+  case like
+  case dislike
+  case privacy
+  case cart
+  case search
+  public static func == (a: FrisbuyStoriesSDK.AlertIcon, b: FrisbuyStoriesSDK.AlertIcon) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension FrisbuyStoriesSDK.ProgressHUD {
+  @_Concurrency.MainActor(unsafe) public class var mediaSize: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var marginSize: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var animationType: FrisbuyStoriesSDK.AnimationType {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorBackground: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorHUD: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorStatus: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorProgress: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var colorAnimation: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var fontStatus: UIKit.UIFont {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var imageSuccess: UIKit.UIImage {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public class var imageError: UIKit.UIImage {
+    get
+    set
+  }
+}
+extension FrisbuyStoriesSDK.ProgressHUD {
+  @_Concurrency.MainActor(unsafe) public class func dismiss()
+  @_Concurrency.MainActor(unsafe) public class func remove()
+  @_Concurrency.MainActor(unsafe) public class func show(_ text: Swift.String? = nil, interaction: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public class func show(_ text: Swift.String? = nil, icon: FrisbuyStoriesSDK.AnimatedIcon, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func showSucceed(_ text: Swift.String? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func showFailed(_ text: Swift.String? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func showFailed(_ error: (any Swift.Error)?, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func showAdded(_ text: Swift.String? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func show(_ text: Swift.String? = nil, icon: FrisbuyStoriesSDK.AlertIcon, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func show(_ text: Swift.String? = nil, symbol: Swift.String, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func showSuccess(_ text: Swift.String? = nil, image: UIKit.UIImage? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func showError(_ text: Swift.String? = nil, image: UIKit.UIImage? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func showError(_ error: (any Swift.Error)?, image: UIKit.UIImage? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
+  @_Concurrency.MainActor(unsafe) public class func showProgress(_ progress: CoreFoundation.CGFloat, interaction: Swift.Bool = false)
+  @_Concurrency.MainActor(unsafe) public class func showProgress(_ text: Swift.String?, _ progress: CoreFoundation.CGFloat, interaction: Swift.Bool = false)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ProgressHUD : UIKit.UIView {
+  @objc deinit
 }
 public struct CrossFadeAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
   public init()
@@ -139,12 +264,12 @@ extension UIKit.UIImage {
   public static func named(_ value: Swift.String) -> UIKit.UIImage?
 }
 public protocol SDWebImageManagerWrappedDelegate {
-  func loadImage(with: Foundation.URL?, progress: Any?, _ handler: @escaping ((UIKit.UIImage?, Foundation.Data?, Swift.Error?, Swift.Int, Swift.Bool, Foundation.URL?) -> Swift.Void))
+  func loadImage(with: Foundation.URL?, progress: Any?, _ handler: @escaping ((UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?, Swift.Int, Swift.Bool, Foundation.URL?) -> Swift.Void))
 }
 @_hasMissingDesignatedInitializers public class SDWebImageManagerWrapped {
   public static let shared: FrisbuyStoriesSDK.SDWebImageManagerWrapped
-  public var delegate: FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate?
-  public func loadImage(with: Foundation.URL?, progress: Any?, _ handler: @escaping ((UIKit.UIImage?, Foundation.Data?, Swift.Error?, Swift.Int, Swift.Bool, Foundation.URL?) -> Swift.Void))
+  public var delegate: (any FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate)?
+  public func loadImage(with: Foundation.URL?, progress: Any?, cancel: Swift.Bool = false, new: Swift.Bool = false, _ handler: @escaping ((UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?, Swift.Int, Swift.Bool, Foundation.URL?) -> Swift.Void))
   @objc deinit
 }
 public enum Result<T> {
@@ -163,3 +288,9 @@ public protocol FrisbuyStoriesDelegate {
 extension FrisbuyStoriesSDK.FormStrory : Swift.Equatable {}
 extension FrisbuyStoriesSDK.FormStrory : Swift.Hashable {}
 extension FrisbuyStoriesSDK.FormStrory : Swift.RawRepresentable {}
+extension FrisbuyStoriesSDK.AnimationType : Swift.Equatable {}
+extension FrisbuyStoriesSDK.AnimationType : Swift.Hashable {}
+extension FrisbuyStoriesSDK.AnimatedIcon : Swift.Equatable {}
+extension FrisbuyStoriesSDK.AnimatedIcon : Swift.Hashable {}
+extension FrisbuyStoriesSDK.AlertIcon : Swift.Equatable {}
+extension FrisbuyStoriesSDK.AlertIcon : Swift.Hashable {}
