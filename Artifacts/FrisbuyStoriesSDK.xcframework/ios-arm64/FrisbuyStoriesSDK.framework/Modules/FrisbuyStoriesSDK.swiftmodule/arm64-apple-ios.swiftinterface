@@ -1,17 +1,20 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name FrisbuyStoriesSDK
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FrisbuyStoriesSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
 import CoreMedia
+import DeveloperToolsSupport
 import Foundation
 @_exported import FrisbuyStoriesSDK
 import QuickLook
 import Swift
+import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public struct LinearCardAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
   public var minAlpha: CoreFoundation.CGFloat
   public var itemSpacing: CoreFoundation.CGFloat
@@ -57,7 +60,12 @@ public enum FormStrory : Swift.String {
   }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class FrisbuyStories : UIKit.UICollectionViewController {
-  @_Concurrency.MainActor(unsafe) convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: (any FrisbuyStoriesSDK.FrisbuyStoriesDelegate)?, formStrory: FrisbuyStoriesSDK.FormStrory = FormStrory.square)
+  @_Concurrency.MainActor(unsafe) final public var dataReceived: ((Swift.Bool) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) final public var clickedPost: ((Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) final public var clickedAlbum: ((Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) final public var watchedPost: ((Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) final public var swipedPost: ((Swift.Bool) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: (any FrisbuyStoriesSDK.FrisbuyStoriesDelegate)?, formStrory: FrisbuyStoriesSDK.FormStrory = FormStrory.square, space: CoreFoundation.CGFloat, paddings: UIKit.UIEdgeInsets?, contentBorder: CoreFoundation.CGFloat)
   @_Concurrency.MainActor(unsafe) @objc override final public func loadView()
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) final public func reloadData(params: [Swift.String : Any] = [String: Any]())
@@ -65,6 +73,7 @@ public enum FormStrory : Swift.String {
   @_Concurrency.MainActor(unsafe) @objc override final public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc override final public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
   @_Concurrency.MainActor(unsafe) @objc override final public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc override final public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(collectionViewLayout layout: UIKit.UICollectionViewLayout)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -282,8 +291,8 @@ extension Foundation.NSNotification.Name {
   public static let updatedVisible: Foundation.NSNotification.Name
 }
 public protocol FrisbuyStoriesDelegate {
-  func didSelect(link: FrisbuyStoriesSDK.Link)
-  func buyButtonTapped(link: FrisbuyStoriesSDK.Link)
+  func didSelect(link: FrisbuyStoriesSDK.Link, postId: Swift.String)
+  func buyButtonTapped(link: FrisbuyStoriesSDK.Link, postId: Swift.String)
 }
 extension FrisbuyStoriesSDK.FormStrory : Swift.Equatable {}
 extension FrisbuyStoriesSDK.FormStrory : Swift.Hashable {}
