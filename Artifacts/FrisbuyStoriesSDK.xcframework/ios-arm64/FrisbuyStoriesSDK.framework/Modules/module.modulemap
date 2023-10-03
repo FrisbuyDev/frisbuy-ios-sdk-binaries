@@ -1,7 +1,7 @@
 framework module FrisbuyStoriesSDK {
   umbrella header "FrisbuyStoriesSDK.h"
-
   export *
+
   module * { export * }
 }
 
