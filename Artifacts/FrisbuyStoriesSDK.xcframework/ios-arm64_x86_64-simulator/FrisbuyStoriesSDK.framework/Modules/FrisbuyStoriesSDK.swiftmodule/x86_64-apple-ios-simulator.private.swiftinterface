@@ -65,7 +65,7 @@ public enum FormStrory : Swift.String {
   @_Concurrency.MainActor(unsafe) final public var clickedAlbum: ((Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor(unsafe) final public var watchedPost: ((Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor(unsafe) final public var swipedPost: ((Swift.Bool) -> Swift.Void)?
-  @_Concurrency.MainActor(unsafe) convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: (any FrisbuyStoriesSDK.FrisbuyStoriesDelegate)?, formStrory: FrisbuyStoriesSDK.FormStrory = FormStrory.square, space: CoreFoundation.CGFloat, paddings: UIKit.UIEdgeInsets?, contentBorder: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor(unsafe) convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: (any FrisbuyStoriesSDK.FrisbuyStoriesDelegate)?, formStrory: FrisbuyStoriesSDK.FormStrory = FormStrory.square, space: CoreFoundation.CGFloat, paddings: UIKit.UIEdgeInsets?, contentBorder: CoreFoundation.CGFloat, fullWidth: CoreFoundation.CGFloat)
   @_Concurrency.MainActor(unsafe) @objc override final public func loadView()
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) final public func reloadData(params: [Swift.String : Any] = [String: Any]())
