@@ -389,6 +389,7 @@ SWIFT_CLASS("_TtC17FrisbuyStoriesSDK11ProgressHUD")
 
 
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -763,6 +764,7 @@ SWIFT_CLASS("_TtC17FrisbuyStoriesSDK11ProgressHUD")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
 
 
 
