@@ -50,7 +50,7 @@ public struct Link {
 }
 public struct Sku {
 }
-public enum FormStrory : Swift.String {
+public enum FormStory : Swift.String {
   case round
   case square
   public init?(rawValue: Swift.String)
@@ -65,7 +65,8 @@ public enum FormStrory : Swift.String {
   @_Concurrency.MainActor(unsafe) final public var clickedAlbum: ((Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor(unsafe) final public var watchedPost: ((Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor(unsafe) final public var swipedPost: ((Swift.Bool) -> Swift.Void)?
-  @_Concurrency.MainActor(unsafe) convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: (any FrisbuyStoriesSDK.FrisbuyStoriesDelegate)?, formStrory: FrisbuyStoriesSDK.FormStrory = FormStrory.square, space: CoreFoundation.CGFloat, paddings: UIKit.UIEdgeInsets?, contentBorder: CoreFoundation.CGFloat, fullWidth: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor(unsafe) final public var clickedButton: ((Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: (any FrisbuyStoriesSDK.FrisbuyStoriesDelegate)?, formStrory: FrisbuyStoriesSDK.FormStory = FormStory.square, space: CoreFoundation.CGFloat, paddings: UIKit.UIEdgeInsets?, contentBorder: CoreFoundation.CGFloat, isHorizontalScroll: Swift.Bool, heightWidget: CoreFoundation.CGFloat, rimColor: UIKit.UIColor)
   @_Concurrency.MainActor(unsafe) @objc override final public func loadView()
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) final public func reloadData(params: [Swift.String : Any] = [String: Any]())
@@ -294,9 +295,9 @@ public protocol FrisbuyStoriesDelegate {
   func didSelect(link: FrisbuyStoriesSDK.Link, postId: Swift.String)
   func buyButtonTapped(link: FrisbuyStoriesSDK.Link, postId: Swift.String)
 }
-extension FrisbuyStoriesSDK.FormStrory : Swift.Equatable {}
-extension FrisbuyStoriesSDK.FormStrory : Swift.Hashable {}
-extension FrisbuyStoriesSDK.FormStrory : Swift.RawRepresentable {}
+extension FrisbuyStoriesSDK.FormStory : Swift.Equatable {}
+extension FrisbuyStoriesSDK.FormStory : Swift.Hashable {}
+extension FrisbuyStoriesSDK.FormStory : Swift.RawRepresentable {}
 extension FrisbuyStoriesSDK.AnimationType : Swift.Equatable {}
 extension FrisbuyStoriesSDK.AnimationType : Swift.Hashable {}
 extension FrisbuyStoriesSDK.AnimatedIcon : Swift.Equatable {}
