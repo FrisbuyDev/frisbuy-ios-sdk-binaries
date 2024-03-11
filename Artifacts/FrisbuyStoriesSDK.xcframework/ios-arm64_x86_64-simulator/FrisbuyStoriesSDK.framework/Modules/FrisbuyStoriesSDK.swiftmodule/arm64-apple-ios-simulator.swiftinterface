@@ -1,14 +1,17 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FrisbuyStoriesSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFAudio
 import AVFoundation
 import AVKit
+import Combine
 import CoreMedia
 import DeveloperToolsSupport
 import Foundation
 @_exported import FrisbuyStoriesSDK
 import QuickLook
+import Security
 import Swift
 import SwiftUI
 import UIKit
@@ -50,6 +53,36 @@ public struct Link {
 }
 public struct Sku {
 }
+public struct Stickers {
+}
+public struct TextStickers {
+}
+public struct PictureStickers {
+}
+public struct ViewStory : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct StoryData : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Interaction : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Poll : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Emojis : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Response : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Body : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Interactions : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum FormStory : Swift.String {
   case round
   case square
@@ -69,6 +102,7 @@ public enum FormStory : Swift.String {
   @_Concurrency.MainActor(unsafe) convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: (any FrisbuyStoriesSDK.FrisbuyStoriesDelegate)?, formStrory: FrisbuyStoriesSDK.FormStory = FormStory.square, space: CoreFoundation.CGFloat, paddings: UIKit.UIEdgeInsets?, contentBorder: CoreFoundation.CGFloat, isHorizontalScroll: Swift.Bool, heightWidget: CoreFoundation.CGFloat, rimColor: UIKit.UIColor)
   @_Concurrency.MainActor(unsafe) @objc override final public func loadView()
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) final public func reloadData(params: [Swift.String : Any] = [String: Any]())
   @_Concurrency.MainActor(unsafe) @objc override final public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc override final public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
@@ -244,9 +278,75 @@ extension FrisbuyStoriesSDK.ProgressHUD {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ProgressHUD : UIKit.UIView {
   @objc deinit
 }
+open class KeychainWrapper {
+  @available(*, deprecated, message: "KeychainWrapper.defaultKeychainWrapper is deprecated, use KeychainWrapper.standard instead")
+  public static let defaultKeychainWrapper: FrisbuyStoriesSDK.KeychainWrapper
+  public static let standard: FrisbuyStoriesSDK.KeychainWrapper
+  public var serviceName: Swift.String {
+    get
+  }
+  public var accessGroup: Swift.String? {
+    get
+  }
+  public init(serviceName: Swift.String, accessGroup: Swift.String? = nil)
+  open func hasValue(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
+  open func accessibilityOfKey(_ key: Swift.String) -> FrisbuyStoriesSDK.KeychainItemAccessibility?
+  open func allKeys() -> Swift.Set<Swift.String>
+  open func integer(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Int?
+  open func float(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Float?
+  open func double(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Double?
+  open func bool(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool?
+  open func string(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.String?
+  open func object(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> (any Foundation.NSCoding)?
+  open func data(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Foundation.Data?
+  open func dataRef(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Foundation.Data?
+  @discardableResult
+  open func set(_ value: Swift.Int, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Swift.Float, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Swift.Double, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Swift.Bool, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Swift.String, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: any Foundation.NSCoding, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Foundation.Data, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @available(*, deprecated, message: "remove is deprecated, use removeObject instead")
+  @discardableResult
+  open func remove(key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func removeObject(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
+  open func removeAllKeys() -> Swift.Bool
+  open class func wipeKeychain()
+  @objc deinit
+}
 public struct CrossFadeAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
   public init()
   public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+public enum KeychainItemAccessibility {
+  @available(iOS 4, *)
+  case afterFirstUnlock
+  @available(iOS 4, *)
+  case afterFirstUnlockThisDeviceOnly
+  @available(iOS 4, *)
+  case always
+  @available(iOS 8, *)
+  case whenPasscodeSetThisDeviceOnly
+  @available(iOS 4, *)
+  case alwaysThisDeviceOnly
+  @available(iOS 4, *)
+  case whenUnlocked
+  @available(iOS 4, *)
+  case whenUnlockedThisDeviceOnly
+  public static func == (a: FrisbuyStoriesSDK.KeychainItemAccessibility, b: FrisbuyStoriesSDK.KeychainItemAccessibility) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public protocol LayoutAttributesAnimator {
   func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
@@ -256,6 +356,9 @@ public struct CubeAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimato
   public var totalAngle: CoreFoundation.CGFloat
   public init(perspective: CoreFoundation.CGFloat = -1 / 500, totalAngle: CoreFoundation.CGFloat = .pi / 2)
   public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public func convertCSSColorToRGBA(cssColor: Swift.String) -> UIKit.UIColor?
 }
 public struct RotateInOutAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
   public var minAlpha: CoreFoundation.CGFloat
@@ -295,6 +398,10 @@ public protocol FrisbuyStoriesDelegate {
   func didSelect(link: FrisbuyStoriesSDK.Link, postId: Swift.String)
   func buyButtonTapped(link: FrisbuyStoriesSDK.Link, postId: Swift.String)
 }
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func renderAsImage(scale: CoreFoundation.CGFloat) -> UIKit.UIImage
+  @_Concurrency.MainActor(unsafe) public func drawHierarchyAsImage() -> UIKit.UIImage
+}
 extension FrisbuyStoriesSDK.FormStory : Swift.Equatable {}
 extension FrisbuyStoriesSDK.FormStory : Swift.Hashable {}
 extension FrisbuyStoriesSDK.FormStory : Swift.RawRepresentable {}
@@ -304,3 +411,5 @@ extension FrisbuyStoriesSDK.AnimatedIcon : Swift.Equatable {}
 extension FrisbuyStoriesSDK.AnimatedIcon : Swift.Hashable {}
 extension FrisbuyStoriesSDK.AlertIcon : Swift.Equatable {}
 extension FrisbuyStoriesSDK.AlertIcon : Swift.Hashable {}
+extension FrisbuyStoriesSDK.KeychainItemAccessibility : Swift.Equatable {}
+extension FrisbuyStoriesSDK.KeychainItemAccessibility : Swift.Hashable {}
