@@ -30,7 +30,7 @@ class ViewController: UIViewController {
 
     	padding = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 16)    	
 
-    	self.frisbuyStories1 = FrisbuyStories(embedId: "a6e6fe66-2dbf-11ed-a074-0242ac130002", isAlbums: true, delegate: self, formStrory: .round, space: 45, paddings: padding, contentBorder: 2)
+        self.frisbuyStories1 = FrisbuyStories(embedId: "42a298f5-77bc-11ee-90cf-0242ac130002", isAlbums: false, delegate: self, formStrory: .square, space: 16, paddings: padding, contentBorder: 2, isHorizontalScroll: isHorizontalScroll1, heightWidget: heightWidget1, rimColor: UIColor.green, isSaveResult: false, isReactNative: false, countElements: 20)
 
     	let height = UIScreen.main.bounds.width/3/0.7 + 100
     	self.bigView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)

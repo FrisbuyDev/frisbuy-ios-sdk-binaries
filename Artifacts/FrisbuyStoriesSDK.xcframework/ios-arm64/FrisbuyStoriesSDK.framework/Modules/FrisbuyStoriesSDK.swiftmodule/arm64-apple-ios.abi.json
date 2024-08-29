@@ -4413,7 +4413,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(embedId:isAlbums:delegate:formStrory:space:paddings:contentBorder:isHorizontalScroll:heightWidget:rimColor:isSaveResult:isReactNative:)",
+            "printedName": "init(embedId:isAlbums:delegate:formStrory:space:paddings:contentBorder:isHorizontalScroll:heightWidget:rimColor:isSaveResult:isReactNative:countPosts:countElements:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4510,11 +4510,41 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNativeACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgAVSbAVSo7UIColorCS2btcfc",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNativeACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgAVSbAVSo7UIColorCS2btcfc",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative10countPosts0Y8ElementsACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgAXSbAXSo7UIColorCS2bSiSgA2_tcfc",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative10countPosts0Y8ElementsACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgAXSbAXSo7UIColorCS2bSiSgA2_tcfc",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "Custom",
@@ -6573,6 +6603,13 @@
         "kind": "Import",
         "name": "AVKit",
         "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "FrisbuyStoriesSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "FrisbuyStoriesSDK"
       },
@@ -12598,6 +12635,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "FrisbuyStoriesSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -15446,273 +15490,294 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 683,
+      "offset": 656,
       "length": 4,
       "value": "0.89"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 971,
+      "offset": 944,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1079,
+      "offset": 1052,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1178,
+      "offset": 1151,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1205,
+      "offset": 1178,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1267,
+      "offset": 1240,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1343,
+      "offset": 1272,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1390,
+      "offset": 1319,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1367,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 1445,
+      "offset": 1422,
       "length": 27,
       "value": "\"frisbuy.albumDetailCVCell\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1579,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1673,
+      "offset": 1608,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1918,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1756,
+      "offset": 2073,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2002,
+      "offset": 2353,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2227,
+      "offset": 2578,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 2313,
+      "offset": 2664,
       "length": 7,
       "value": "\"cross\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2398,
+      "offset": 2749,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2568,
+      "offset": 2919,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 2614,
+      "offset": 2965,
       "length": 11,
       "value": "\"speakerOn\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 2669,
+      "offset": 3020,
       "length": 12,
       "value": "\"speakerOff\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2854,
+      "offset": 3205,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3390,
+      "offset": 3687,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 3428,
+      "offset": 3725,
       "length": 9,
       "value": "\"arrowUp\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3515,
+      "offset": 3812,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3579,
+      "offset": 3876,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 3608,
+      "offset": 3905,
       "length": 31,
       "value": "\"Показать товары\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3691,
+      "offset": 3988,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3754,
+      "offset": 4051,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3881,
+      "offset": 4178,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3890,
+      "offset": 4187,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3960,
+      "offset": 4257,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3969,
+      "offset": 4266,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 4038,
+      "offset": 4335,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 4047,
+      "offset": 4344,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 10914,
+      "offset": 9257,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11443,
+      "offset": 9835,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11736,
+      "offset": 10224,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13142,
+      "offset": 11655,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 26152,
+      "offset": 20642,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "Array",
-      "offset": 26544,
+      "offset": 22117,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "Array",
-      "offset": 26596,
+      "offset": 22169,
       "length": 2,
       "value": "[]"
     },
@@ -15747,77 +15812,77 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 257,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 269,
+      "offset": 357,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 328,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 333,
+      "offset": 362,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 361,
+      "offset": 390,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "Dictionary",
-      "offset": 586,
+      "offset": 615,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 652,
-      "length": 3,
-      "value": "100"
+      "kind": "BooleanLiteral",
+      "offset": 690,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 694,
+      "offset": 727,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
+      "kind": "StringLiteral",
+      "offset": 988,
+      "length": 26,
+      "value": "\"frisbuy.frisbuyStoriesVM\""
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1125,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "Array",
-      "offset": 731,
+      "offset": 1276,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "StringLiteral",
-      "offset": 33,
+      "offset": 48,
       "length": 7,
       "value": "\"FrisbuyStoriesSDK.MediaVC\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "StringLiteral",
-      "offset": 33,
+      "offset": 48,
       "length": 7,
       "value": "\"FrisbuyStoriesSDK.MediaVC\""
     },
@@ -16146,14 +16211,14 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
       "kind": "IntegerLiteral",
-      "offset": 59487,
+      "offset": 59972,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
       "kind": "FloatLiteral",
-      "offset": 62244,
+      "offset": 62729,
       "length": 3,
       "value": "0.2"
     },
@@ -16573,77 +16638,84 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 747,
+      "offset": 762,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 847,
+      "offset": 862,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 870,
+      "offset": 918,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 947,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 908,
+      "offset": 985,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 1102,
+      "offset": 1179,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 1148,
+      "offset": 1225,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 1211,
+      "offset": 1288,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 1274,
+      "offset": 1398,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 1794,
+      "offset": 1918,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 7584,
+      "offset": 7808,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "StringLiteral",
-      "offset": 455,
+      "offset": 470,
       "length": 20,
       "value": "\"FrisbuyStoriesSDK.SegmentedProgressBar\""
     },
@@ -16677,57 +16749,57 @@
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
-      "kind": "IntegerLiteral",
-      "offset": 271,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "StringLiteral",
-      "offset": 328,
+      "offset": 368,
       "length": 26,
       "value": "\"frisbuy.frisbuyStoriesVM\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 387,
+      "offset": 427,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 420,
+      "offset": 460,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "StringLiteral",
-      "offset": 589,
+      "offset": 629,
       "length": 16,
       "value": "\"logged_in_code\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 1209,
+      "offset": 1292,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/TextStickersView.swift",
       "kind": "BooleanLiteral",
-      "offset": 401,
+      "offset": 405,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/TextStickersView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 612,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/TextStickersView.swift",
       "kind": "IntegerLiteral",
-      "offset": 473,
+      "offset": 684,
       "length": 1,
       "value": "0"
     },
@@ -17513,7 +17585,7 @@
       "kind": "IntegerLiteral",
       "offset": 672,
       "length": 1,
-      "value": "1"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
