@@ -4413,7 +4413,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(embedId:isAlbums:delegate:formStrory:space:paddings:contentBorder:isHorizontalScroll:heightWidget:rimColor:isSaveResult:isReactNative:countPosts:countElements:)",
+            "printedName": "init(embedId:isAlbums:delegate:formStrory:space:paddings:contentBorder:isHorizontalScroll:heightWidget:rimColor:isSaveResult:isReactNative:isText:countPosts:countElements:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4513,6 +4513,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.Int?",
                 "children": [
@@ -4543,8 +4550,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative10countPosts0Y8ElementsACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgAXSbAXSo7UIColorCS2bSiSgA2_tcfc",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative10countPosts0Y8ElementsACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgAXSbAXSo7UIColorCS2bSiSgA2_tcfc",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text10countPosts0Z8ElementsACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgAYSbAYSo7UIColorCS3bSiSgA3_tcfc",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text10countPosts0Z8ElementsACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgAYSbAYSo7UIColorCS3bSiSgA3_tcfc",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "Custom",
@@ -15426,38 +15433,52 @@
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "BooleanLiteral",
+      "offset": 999,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "StringLiteral",
-      "offset": 1530,
+      "offset": 1566,
       "length": 36,
       "value": "\"Историй не найдено\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
-      "offset": 1614,
+      "offset": 1650,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
-      "offset": 1666,
+      "offset": 1702,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 1725,
+      "offset": 1761,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 1849,
+      "offset": 1885,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2158,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/AnimatedCollectionViewLayout\/PageAttributesAnimator.swift",
@@ -15986,85 +16007,99 @@
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 304,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 415,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 444,
+      "offset": 288,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 648,
+      "offset": 239,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 553,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 800,
+      "offset": 582,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 786,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 833,
+      "offset": 938,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 972,
+      "offset": 971,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1110,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 1159,
       "length": 9,
       "value": "\"#D3D3D3\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1052,
+      "offset": 1190,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1263,
+      "offset": 1401,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1320,
+      "offset": 1458,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1662,
+      "offset": 1898,
       "length": 4,
       "value": "true"
     },
