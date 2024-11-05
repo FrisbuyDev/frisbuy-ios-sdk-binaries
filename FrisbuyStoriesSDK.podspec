@@ -7,8 +7,8 @@ spec.homepage           = 'https://gitlab.com/frisbuy-public/frisbuy-ios-sdk-bin
 spec.documentation_url  = "..."
 spec.license            = { :type => "MIT" }
 spec.author             = { "Frisbuy" => "..." }
-spec.source             = { :path => '/Users/i/frisbuy-ios-sdk-binaries'}
-# { :git => 'https://gitlab.com/frisbuy-public/frisbuy-ios-sdk-binaries', :tag => '1.0.37' }
+spec.source             = { :git => 'https://gitlab.com/frisbuy-public/frisbuy-ios-sdk-binaries', :tag => '1.0.37' }
+# { :path => '/Users/i/frisbuy-ios-sdk-binaries'}
 
 
 spec.swift_version      = "5.0"
