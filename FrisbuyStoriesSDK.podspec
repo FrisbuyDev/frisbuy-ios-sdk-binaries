@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
 spec.name               = "FrisbuyStoriesSDK"
-spec.version            = "1.0.39"
+spec.version            = "1.0.40"
 spec.summary            = "FrisbuyStories Library for iOS apps"
 spec.description        = "Frisbuy Stories Library for iOS apps"
 spec.homepage           = 'https://gitlab.com/frisbuy-public/frisbuy-ios-sdk-binaries'
 spec.documentation_url  = "..."
 spec.license            = { :type => "MIT" }
 spec.author             = { "Frisbuy" => "..." }
-spec.source             = { :git => 'https://gitlab.com/frisbuy-public/frisbuy-ios-sdk-binaries', :tag => '1.0.39' }
+spec.source             = { :git => 'https://gitlab.com/frisbuy-public/frisbuy-ios-sdk-binaries', :tag => '1.0.40' }
 # { :path => '/Users/i/frisbuy-ios-sdk-binaries'}
 
 
