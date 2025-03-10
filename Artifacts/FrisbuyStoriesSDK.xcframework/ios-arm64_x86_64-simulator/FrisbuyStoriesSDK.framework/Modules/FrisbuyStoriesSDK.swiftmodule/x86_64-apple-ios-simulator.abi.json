@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FrisbuyStoriesSDK",
+    "printedName": "FrisbuyStoriesSDK",
     "children": [
       {
         "kind": "Import",
@@ -363,6 +363,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "LayoutAttributesAnimator",
             "printedName": "LayoutAttributesAnimator",
             "usr": "s:17FrisbuyStoriesSDK24LayoutAttributesAnimatorP",
@@ -467,6 +481,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -521,6 +551,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -533,6 +579,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -545,6 +607,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -597,6 +675,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -614,6 +706,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1347,6 +1455,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2211,6 +2335,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2223,6 +2363,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2235,6 +2391,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2247,6 +2419,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2289,6 +2477,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -2340,6 +2542,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2387,6 +2603,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -2438,6 +2668,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2485,6 +2729,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -2536,6 +2794,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2585,6 +2857,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2632,6 +2918,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -2839,6 +3139,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2919,8 +3233,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3076,8 +3391,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3233,8 +3549,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3390,8 +3707,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3547,8 +3865,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3717,8 +4036,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3913,8 +4233,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -4109,8 +4430,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -4292,8 +4614,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -4413,7 +4736,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(embedId:isAlbums:delegate:formStrory:space:paddings:contentBorder:isHorizontalScroll:heightWidget:rimColor:isSaveResult:isReactNative:isText:countPosts:countElements:)",
+            "printedName": "init(embedId:isAlbums:delegate:formStrory:space:paddings:contentBorder:isHorizontalScroll:heightWidget:rimColor:isSaveResult:isReactNative:isText:countPosts:countElements:width:radiusBox:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4547,13 +4870,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text10countPosts0Z8ElementsACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgAYSbAYSo7UIColorCS3bSiSgA3_tcfc",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text10countPosts0Z8ElementsACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgAYSbAYSo7UIColorCS3bSiSgA3_tcfc",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text10countPosts0Z8Elements5width9radiusBoxACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgA_SbA_So7UIColorCS3bSiSgA5_A_A_tcfc",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text10countPosts0Z8Elements5width9radiusBoxACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgA_SbA_So7UIColorCS3bSiSgA5_A_A_tcfc",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Convenience",
               "AccessControl",
@@ -4581,6 +4917,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4607,6 +4944,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4639,6 +4977,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -4683,6 +5022,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4715,6 +5055,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -4755,6 +5096,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4794,6 +5136,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4832,6 +5175,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4864,6 +5208,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -4898,6 +5243,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -4953,6 +5299,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -4994,6 +5341,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -5005,6 +5353,7 @@
         "mangledName": "$s17FrisbuyStoriesSDK0aB0C",
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "AccessControl",
@@ -5019,6 +5368,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5255,6 +5618,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "LayoutAttributesAnimator",
@@ -5496,6 +5873,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "LayoutAttributesAnimator",
             "printedName": "LayoutAttributesAnimator",
             "usr": "s:17FrisbuyStoriesSDK24LayoutAttributesAnimatorP",
@@ -5565,8 +5956,9 @@
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5679,6 +6071,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -5761,6 +6154,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -5794,6 +6188,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -5822,6 +6217,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -5863,6 +6259,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -5874,6 +6271,7 @@
         "mangledName": "$s17FrisbuyStoriesSDK28AnimatedCollectionViewLayoutC",
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -5887,6 +6285,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5969,8 +6381,9 @@
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -6072,8 +6485,9 @@
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -6159,8 +6573,9 @@
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -6247,8 +6662,9 @@
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -6335,8 +6751,9 @@
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -6440,6 +6857,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -6480,6 +6898,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -6508,6 +6927,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -6519,6 +6939,7 @@
         "mangledName": "$s17FrisbuyStoriesSDK38AnimatedCollectionViewLayoutAttributesC",
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -6531,6 +6952,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6669,6 +7104,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -6681,6 +7117,7 @@
         "mangledName": "$s17FrisbuyStoriesSDK9CoverViewC",
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -6694,6 +7131,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6745,13 +7196,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
@@ -6763,6 +7207,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -6850,6 +7301,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "LayoutAttributesAnimator",
@@ -7426,6 +7891,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7662,6 +8141,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8494,6 +8987,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8531,6 +9038,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -8620,6 +9128,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -8709,6 +9218,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -8798,6 +9308,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -8887,6 +9398,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -8976,6 +9488,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -9065,6 +9578,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -9154,6 +9668,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -9243,6 +9758,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -9332,6 +9848,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -9421,6 +9938,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -9509,6 +10027,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -9532,6 +10051,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -9577,6 +10097,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -9643,6 +10164,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -9703,6 +10225,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -9763,6 +10286,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -9822,6 +10346,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -9882,6 +10407,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -9948,6 +10474,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -10014,6 +10541,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -10089,6 +10617,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -10164,6 +10693,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -10238,6 +10768,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -10274,6 +10805,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -10324,6 +10856,7 @@
             "moduleName": "FrisbuyStoriesSDK",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -10336,6 +10869,7 @@
         "mangledName": "$s17FrisbuyStoriesSDK11ProgressHUDC",
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -10350,6 +10884,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10401,13 +10949,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
@@ -10419,6 +10960,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -11760,6 +12308,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -11840,6 +12404,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "LayoutAttributesAnimator",
@@ -12266,6 +12844,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12335,6 +12927,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -12621,6 +13229,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "LayoutAttributesAnimator",
@@ -12940,6 +13562,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "LayoutAttributesAnimator",
             "printedName": "LayoutAttributesAnimator",
             "usr": "s:17FrisbuyStoriesSDK24LayoutAttributesAnimatorP",
@@ -13139,6 +13775,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "LayoutAttributesAnimator",
@@ -13445,6 +14095,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -13769,7 +14435,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -13920,6 +14602,22 @@
         "sugared_genericSig": "<T>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -14125,6 +14823,22 @@
         "moduleName": "FrisbuyStoriesSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -14266,6 +14980,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -14381,134 +15109,18 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIView",
-        "printedName": "UIView",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "renderAsImage",
-            "printedName": "renderAsImage(scale:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC17FrisbuyStoriesSDKE13renderAsImage5scaleSo7UIImageC14CoreFoundation7CGFloatV_tF",
-            "mangledName": "$sSo6UIViewC17FrisbuyStoriesSDKE13renderAsImage5scaleSo7UIImageC12CoreGraphics7CGFloatV_tF",
-            "moduleName": "FrisbuyStoriesSDK",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "drawHierarchyAsImage",
-            "printedName": "drawHierarchyAsImage()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC17FrisbuyStoriesSDKE20drawHierarchyAsImageSo7UIImageCyF",
-            "mangledName": "$sSo6UIViewC17FrisbuyStoriesSDKE20drawHierarchyAsImageSo7UIImageCyF",
-            "moduleName": "FrisbuyStoriesSDK",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIView",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIView",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIResponder",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14564,6 +15176,153 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "renderAsImage",
+            "printedName": "renderAsImage(scale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC17FrisbuyStoriesSDKE13renderAsImage5scaleSo7UIImageC14CoreFoundation7CGFloatV_tF",
+            "mangledName": "$sSo6UIViewC17FrisbuyStoriesSDKE13renderAsImage5scaleSo7UIImageC12CoreGraphics7CGFloatV_tF",
+            "moduleName": "FrisbuyStoriesSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "drawHierarchyAsImage",
+            "printedName": "drawHierarchyAsImage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC17FrisbuyStoriesSDKE20drawHierarchyAsImageSo7UIImageCyF",
+            "mangledName": "$sSo6UIViewC17FrisbuyStoriesSDKE20drawHierarchyAsImageSo7UIImageCyF",
+            "moduleName": "FrisbuyStoriesSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -14617,6 +15376,7 @@
             "mangledName": "$sSo16UIViewControllerC17FrisbuyStoriesSDKE21convertCSSColorToRGBA8cssColorSo7UIColorCSgSS_tF",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -14630,6 +15390,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIViewController",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -14644,6 +15405,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14870,6 +15645,20 @@
         "isFromExtension": true,
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
@@ -15103,6 +15892,230 @@
       "value": "1.0"
     },
     {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3475,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3481,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3518,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3634,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3640,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3677,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4188,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4203,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4288,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4304,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4370,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4385,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4450,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4637,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4651,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4723,
+      "length": 2,
+      "value": "34"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4738,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4809,
+      "length": 3,
+      "value": "170"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4825,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4938,
+      "length": 3,
+      "value": "-48"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4954,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5022,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5122,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5136,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5219,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5233,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5314,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5328,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5433,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5447,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/PlayerView.swift",
       "kind": "StringLiteral",
       "offset": 2116,
@@ -15119,84 +16132,91 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 274,
+      "offset": 217,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 503,
+      "offset": 535,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 645,
+      "offset": 677,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 678,
+      "offset": 710,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 822,
+      "offset": 854,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 855,
+      "offset": 887,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 993,
+      "offset": 1025,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 1042,
+      "offset": 1074,
       "length": 9,
       "value": "\"#D3D3D3\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1073,
+      "offset": 1105,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1292,
+      "offset": 1324,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1349,
+      "offset": 1381,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1603,
+      "offset": 1635,
       "length": 4,
       "value": "true"
     },
@@ -15213,27 +16233,6 @@
       "offset": 5569,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/DTO\/Models.swift",
-      "kind": "StringLiteral",
-      "offset": 13783,
-      "length": 10,
-      "value": "\"question\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/DTO\/Models.swift",
-      "kind": "StringLiteral",
-      "offset": 13810,
-      "length": 6,
-      "value": "\"poll\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/DTO\/Models.swift",
-      "kind": "StringLiteral",
-      "offset": 13834,
-      "length": 7,
-      "value": "\"emoji\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/DTO\/Models.swift",
@@ -15369,18 +16368,242 @@
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
-      "kind": "StringLiteral",
-      "offset": 117,
-      "length": 7,
-      "value": "\"round\""
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2819,
+      "length": 3,
+      "value": "244"
     },
     {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
-      "kind": "StringLiteral",
-      "offset": 143,
-      "length": 8,
-      "value": "\"square\""
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2823,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2835,
+      "length": 3,
+      "value": "244"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2839,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2850,
+      "length": 3,
+      "value": "247"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2854,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2866,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2906,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3095,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3173,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3187,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3273,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3335,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3349,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3410,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3425,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3493,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3579,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3593,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3693,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3781,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3795,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3885,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3899,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3975,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4071,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4085,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4157,
+      "length": 2,
+      "value": "34"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4172,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4243,
+      "length": 3,
+      "value": "170"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4259,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4352,
+      "length": 3,
+      "value": "-15"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4368,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
@@ -15440,43 +16663,57 @@
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1037,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1078,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "StringLiteral",
-      "offset": 1566,
+      "offset": 1638,
       "length": 36,
       "value": "\"Историй не найдено\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
-      "offset": 1650,
+      "offset": 1722,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
-      "offset": 1702,
+      "offset": 1774,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 1761,
+      "offset": 1833,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 1885,
+      "offset": 1957,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 2158,
+      "offset": 2230,
       "length": 4,
       "value": "true"
     },
@@ -15817,6 +17054,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48888,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/AnimatedCollectionViewLayout\/ParallaxAttributesAnimator.swift",
       "kind": "FloatLiteral",
       "offset": 582,
@@ -15908,27 +17152,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
-      "kind": "StringLiteral",
-      "offset": 48,
-      "length": 7,
-      "value": "\"FrisbuyStoriesSDK.MediaVC\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
-      "kind": "StringLiteral",
-      "offset": 48,
-      "length": 7,
-      "value": "\"FrisbuyStoriesSDK.MediaVC\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/PictureStickers.swift",
-      "kind": "StringLiteral",
-      "offset": 121,
-      "length": 14,
-      "value": "\"FrisbuyStoriesSDK.PictureSticker\""
-    },
-    {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/FlashButton.swift",
       "kind": "FloatLiteral",
       "offset": 786,
@@ -16015,98 +17238,98 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 288,
+      "offset": 316,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 239,
+      "offset": 267,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 442,
+      "offset": 470,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 553,
+      "offset": 581,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 582,
+      "offset": 610,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 786,
+      "offset": 814,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 938,
+      "offset": 966,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 971,
+      "offset": 999,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1110,
+      "offset": 1138,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 1159,
+      "offset": 1187,
       "length": 9,
       "value": "\"#D3D3D3\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1190,
+      "offset": 1218,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1401,
+      "offset": 1429,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1458,
+      "offset": 1486,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1898,
+      "offset": 1926,
       "length": 4,
       "value": "true"
     },
@@ -16260,6 +17483,90 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
       "kind": "IntegerLiteral",
+      "offset": 34447,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34472,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34506,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "FloatLiteral",
+      "offset": 34570,
+      "length": 3,
+      "value": "1.4"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "FloatLiteral",
+      "offset": 34578,
+      "length": 3,
+      "value": "1.4"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "FloatLiteral",
+      "offset": 34625,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34638,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34779,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "FloatLiteral",
+      "offset": 34781,
+      "length": 3,
+      "value": "1.4"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34789,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "FloatLiteral",
+      "offset": 34791,
+      "length": 3,
+      "value": "1.4"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34832,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/ProgressHUD.swift",
+      "kind": "IntegerLiteral",
       "offset": 59972,
       "length": 1,
       "value": "0"
@@ -16326,13 +17633,6 @@
       "offset": 1043,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/PollView.swift",
-      "kind": "StringLiteral",
-      "offset": 115,
-      "length": 8,
-      "value": "\"FrisbuyStoriesSDK.PollView\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewControllerRn.swift",
@@ -16587,13 +17887,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/EmojiView.swift",
-      "kind": "StringLiteral",
-      "offset": 115,
-      "length": 9,
-      "value": "\"FrisbuyStoriesSDK.EmojiView\""
-    },
-    {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/InteractionView.swift",
       "kind": "BooleanLiteral",
       "offset": 602,
@@ -16641,13 +17934,6 @@
       "offset": 1393,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/InteractionView.swift",
-      "kind": "StringLiteral",
-      "offset": 117,
-      "length": 15,
-      "value": "\"FrisbuyStoriesSDK.InteractionView\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/AnimatedCollectionViewLayout\/CubeAttributesAnimator.swift",
@@ -16749,10 +18035,59 @@
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
-      "kind": "StringLiteral",
-      "offset": 470,
-      "length": 20,
-      "value": "\"FrisbuyStoriesSDK.SegmentedProgressBar\""
+      "kind": "IntegerLiteral",
+      "offset": 12242,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12307,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12434,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12462,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12466,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12535,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12793,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/AnimatedCollectionViewLayout\/RotateInOutAttributesAnimator.swift",
@@ -16837,13 +18172,6 @@
       "offset": 720,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/TextStickersView.swift",
-      "kind": "StringLiteral",
-      "offset": 123,
-      "length": 16,
-      "value": "\"FrisbuyStoriesSDK.TextStickersView\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/StoryPreviewHeaderView.swift",
@@ -17019,41 +18347,6 @@
       "offset": 79,
       "length": 12,
       "value": "\"LinkTVCell\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 60,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 82,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 106,
-      "length": 7,
-      "value": "\"PATCH\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 129,
-      "length": 5,
-      "value": "\"PUT\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 153,
-      "length": 8,
-      "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
@@ -17574,18 +18867,11 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
-      "kind": "StringLiteral",
-      "offset": 148,
-      "length": 6,
-      "value": "\"link\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
-      "kind": "StringLiteral",
-      "offset": 173,
-      "length": 8,
-      "value": "\"button\""
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/StoryDetailCVCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21176,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
@@ -17628,13 +18914,6 @@
       "offset": 931,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
-      "kind": "StringLiteral",
-      "offset": 191,
-      "length": 8,
-      "value": "\"FrisbuyStoriesSDK.CallView\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/MediaCVCell.swift",
@@ -17896,25 +19175,11 @@
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/PollCell.swift",
-      "kind": "StringLiteral",
-      "offset": 129,
-      "length": 8,
-      "value": "\"FrisbuyStoriesSDK.PollCell\""
-    },
-    {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 375,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/HeaderView.swift",
-      "kind": "StringLiteral",
-      "offset": 116,
-      "length": 10,
-      "value": "\"FrisbuyStoriesSDK.HeaderView\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/SwiftUICell.swift",
