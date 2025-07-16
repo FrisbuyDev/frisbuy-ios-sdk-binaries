@@ -4736,7 +4736,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(embedId:isAlbums:delegate:formStrory:space:paddings:contentBorder:isHorizontalScroll:heightWidget:rimColor:isSaveResult:isReactNative:isText:colorFont:fontLabel:countPosts:countElements:width:radiusBox:)",
+            "printedName": "init(embedId:isAlbums:delegate:formStrory:space:paddings:contentBorder:isHorizontalScroll:heightWidget:rimColor:isSaveResult:isReactNative:isText:colorFont:fontLabel:countPosts:countElements:width:radiusBox:segmentCode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4896,11 +4896,26 @@
                 "name": "CGFloat",
                 "printedName": "CoreGraphics.CGFloat",
                 "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBoxACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgA1_SbA1_So7UIColorCS3bA6_So6UIFontCSiSgA9_A1_A1_tcfc",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBoxACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgA1_SbA1_So7UIColorCS3bA6_So6UIFontCSiSgA9_A1_A1_tcfc",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBox11segmentCodeACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgA2_SbA2_So7UIColorCS3bA7_So6UIFontCSiSgA10_A2_A2_SSSgtcfc",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBox11segmentCodeACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgA2_SbA2_So7UIColorCS3bA7_So6UIFontCSiSgA10_A2_A2_SSSgtcfc",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -16699,49 +16714,49 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "StringLiteral",
-      "offset": 1767,
+      "offset": 1814,
       "length": 36,
       "value": "\"Историй не найдено\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
-      "offset": 1851,
+      "offset": 1898,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
-      "offset": 1903,
+      "offset": 1950,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 1962,
+      "offset": 2009,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 2086,
+      "offset": 2133,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 2359,
+      "offset": 2406,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
-      "offset": 2440,
+      "offset": 2487,
       "length": 2,
       "value": "12"
     },
@@ -18148,35 +18163,35 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "StringLiteral",
-      "offset": 368,
+      "offset": 411,
       "length": 26,
       "value": "\"frisbuy.frisbuyStoriesVM\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 427,
+      "offset": 470,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 460,
+      "offset": 503,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 672,
       "length": 16,
       "value": "\"logged_in_code\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 1292,
+      "offset": 1335,
       "length": 5,
       "value": "false"
     },
