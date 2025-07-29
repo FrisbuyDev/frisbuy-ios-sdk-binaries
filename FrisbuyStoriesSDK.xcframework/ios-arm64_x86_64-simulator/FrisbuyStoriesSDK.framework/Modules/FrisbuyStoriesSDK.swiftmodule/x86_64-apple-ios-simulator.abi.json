@@ -3360,12 +3360,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.String) -> ())?",
+                "printedName": "((Swift.String, Swift.String) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
+                    "printedName": "(Swift.String, Swift.String) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3374,9 +3374,22 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -3385,8 +3398,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C11clickedPostySScSgvp",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C11clickedPostySScSgvp",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C11clickedPostySS_SStcSgvp",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C11clickedPostySS_SStcSgvp",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -3406,12 +3419,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
+                    "printedName": "((Swift.String, Swift.String) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
+                        "printedName": "(Swift.String, Swift.String) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3420,9 +3433,22 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -3431,8 +3457,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C11clickedPostySScSgvg",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11clickedPostySScSgvg",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C11clickedPostySS_SStcSgvg",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11clickedPostySS_SStcSgvg",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -3453,12 +3479,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
+                    "printedName": "((Swift.String, Swift.String) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
+                        "printedName": "(Swift.String, Swift.String) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3467,9 +3493,22 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -3478,8 +3517,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C11clickedPostySScSgvs",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11clickedPostySScSgvs",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C11clickedPostySS_SStcSgvs",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11clickedPostySS_SStcSgvs",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -3499,166 +3538,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C11clickedPostySScSgvM",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11clickedPostySScSgvM",
-                "moduleName": "FrisbuyStoriesSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "clickedAlbum",
-            "printedName": "clickedAlbum",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.String) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C12clickedAlbumySScSgvp",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C12clickedAlbumySScSgvp",
-            "moduleName": "FrisbuyStoriesSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C12clickedAlbumySScSgvg",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C12clickedAlbumySScSgvg",
-                "moduleName": "FrisbuyStoriesSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C12clickedAlbumySScSgvs",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C12clickedAlbumySScSgvs",
-                "moduleName": "FrisbuyStoriesSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C12clickedAlbumySScSgvM",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C12clickedAlbumySScSgvM",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C11clickedPostySS_SStcSgvM",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11clickedPostySS_SStcSgvM",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -3676,12 +3557,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.String) -> ())?",
+                "printedName": "((Swift.String, Swift.String) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
+                    "printedName": "(Swift.String, Swift.String) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3690,9 +3571,22 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -3701,8 +3595,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C11watchedPostySScSgvp",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C11watchedPostySScSgvp",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C11watchedPostySS_SStcSgvp",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C11watchedPostySS_SStcSgvp",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -3722,12 +3616,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
+                    "printedName": "((Swift.String, Swift.String) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
+                        "printedName": "(Swift.String, Swift.String) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3736,9 +3630,22 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -3747,8 +3654,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C11watchedPostySScSgvg",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11watchedPostySScSgvg",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C11watchedPostySS_SStcSgvg",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11watchedPostySS_SStcSgvg",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -3769,12 +3676,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
+                    "printedName": "((Swift.String, Swift.String) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
+                        "printedName": "(Swift.String, Swift.String) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3783,9 +3690,22 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -3794,8 +3714,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C11watchedPostySScSgvs",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11watchedPostySScSgvs",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C11watchedPostySS_SStcSgvs",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11watchedPostySS_SStcSgvs",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -3815,8 +3735,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C11watchedPostySScSgvM",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11watchedPostySScSgvM",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C11watchedPostySS_SStcSgvM",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C11watchedPostySS_SStcSgvM",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -3992,12 +3912,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.String, Swift.String) -> ())?",
+                "printedName": "((Swift.String, Swift.String, Swift.String) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String, Swift.String) -> ()",
+                    "printedName": "(Swift.String, Swift.String, Swift.String) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4007,8 +3927,14 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.String, Swift.String)",
+                        "printedName": "(Swift.String, Swift.String, Swift.String)",
                         "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
                           {
                             "kind": "TypeNominal",
                             "name": "String",
@@ -4030,8 +3956,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C13clickedButtonySS_SStcSgvp",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C13clickedButtonySS_SStcSgvp",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C13clickedButtonySS_S2StcSgvp",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C13clickedButtonySS_S2StcSgvp",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -4051,12 +3977,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String, Swift.String) -> ())?",
+                    "printedName": "((Swift.String, Swift.String, Swift.String) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String, Swift.String) -> ()",
+                        "printedName": "(Swift.String, Swift.String, Swift.String) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -4066,8 +3992,14 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(Swift.String, Swift.String)",
+                            "printedName": "(Swift.String, Swift.String, Swift.String)",
                             "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
                               {
                                 "kind": "TypeNominal",
                                 "name": "String",
@@ -4089,8 +4021,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C13clickedButtonySS_SStcSgvg",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C13clickedButtonySS_SStcSgvg",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C13clickedButtonySS_S2StcSgvg",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C13clickedButtonySS_S2StcSgvg",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4111,12 +4043,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.String, Swift.String) -> ())?",
+                    "printedName": "((Swift.String, Swift.String, Swift.String) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.String, Swift.String) -> ()",
+                        "printedName": "(Swift.String, Swift.String, Swift.String) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -4126,8 +4058,14 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(Swift.String, Swift.String)",
+                            "printedName": "(Swift.String, Swift.String, Swift.String)",
                             "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
                               {
                                 "kind": "TypeNominal",
                                 "name": "String",
@@ -4149,8 +4087,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C13clickedButtonySS_SStcSgvs",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C13clickedButtonySS_SStcSgvs",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C13clickedButtonySS_S2StcSgvs",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C13clickedButtonySS_S2StcSgvs",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4170,8 +4108,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C13clickedButtonySS_SStcSgvM",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C13clickedButtonySS_SStcSgvM",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C13clickedButtonySS_S2StcSgvM",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C13clickedButtonySS_S2StcSgvM",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4386,12 +4324,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FrisbuyStoriesSDK.Link, Swift.String) -> ())?",
+                "printedName": "((FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FrisbuyStoriesSDK.Link, Swift.String) -> ()",
+                    "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4401,13 +4339,19 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String)",
+                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Link",
                             "printedName": "FrisbuyStoriesSDK.Link",
                             "usr": "s:17FrisbuyStoriesSDK4LinkV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
                           },
                           {
                             "kind": "TypeNominal",
@@ -4424,8 +4368,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_SStcSgvp",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_SStcSgvp",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_S2StcSgvp",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_S2StcSgvp",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -4445,12 +4389,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((FrisbuyStoriesSDK.Link, Swift.String) -> ())?",
+                    "printedName": "((FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String) -> ()",
+                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -4460,13 +4404,19 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(FrisbuyStoriesSDK.Link, Swift.String)",
+                            "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Link",
                                 "printedName": "FrisbuyStoriesSDK.Link",
                                 "usr": "s:17FrisbuyStoriesSDK4LinkV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
                               },
                               {
                                 "kind": "TypeNominal",
@@ -4483,8 +4433,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_SStcSgvg",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_SStcSgvg",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_S2StcSgvg",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_S2StcSgvg",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4505,12 +4455,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((FrisbuyStoriesSDK.Link, Swift.String) -> ())?",
+                    "printedName": "((FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String) -> ()",
+                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -4520,13 +4470,19 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(FrisbuyStoriesSDK.Link, Swift.String)",
+                            "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Link",
                                 "printedName": "FrisbuyStoriesSDK.Link",
                                 "usr": "s:17FrisbuyStoriesSDK4LinkV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
                               },
                               {
                                 "kind": "TypeNominal",
@@ -4543,8 +4499,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_SStcSgvs",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_SStcSgvs",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_S2StcSgvs",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_S2StcSgvs",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4564,8 +4520,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_SStcSgvM",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_SStcSgvM",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_S2StcSgvM",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C15tappedBuyButtonyAA4LinkV_S2StcSgvM",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4736,7 +4692,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(embedId:isAlbums:delegate:formStrory:space:paddings:contentBorder:isHorizontalScroll:heightWidget:rimColor:isSaveResult:isReactNative:isText:colorFont:fontLabel:countPosts:countElements:width:radiusBox:segmentCode:)",
+            "printedName": "init(embedId:isAlbums:delegate:formStrory:space:paddings:contentBorder:isHorizontalScroll:heightWidget:rimColor:isSaveResult:isReactNative:isText:colorFont:fontLabel:countPosts:countElements:width:radiusBox:segmentCode:isForgetPosition:isSort:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4911,11 +4867,25 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBox11segmentCodeACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgA2_SbA2_So7UIColorCS3bA7_So6UIFontCSiSgA10_A2_A2_SSSgtcfc",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBox11segmentCodeACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgA2_SbA2_So7UIColorCS3bA7_So6UIFontCSiSgA10_A2_A2_SSSgtcfc",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBox11segmentCode0F14ForgetPosition0F4SortACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgA4_SbA4_So7UIColorCS3bA9_So6UIFontCSiSgA12_A4_A4_SSSgS2btcfc",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBox11segmentCode0F14ForgetPosition0F4SortACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgA4_SbA4_So7UIColorCS3bA9_So6UIFontCSiSgA12_A4_A4_SSSgS2btcfc",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -16259,378 +16229,378 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/DTO\/Models.swift",
       "kind": "BooleanLiteral",
-      "offset": 5569,
+      "offset": 5624,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/DTO\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 13783,
+      "offset": 14074,
       "length": 10,
       "value": "\"question\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/DTO\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 13810,
+      "offset": 14101,
       "length": 6,
       "value": "\"poll\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/DTO\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 13834,
+      "offset": 14125,
       "length": 7,
       "value": "\"emoji\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 544,
+      "offset": 634,
       "length": 2,
       "value": "52"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 946,
+      "offset": 1036,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 990,
+      "offset": 1080,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1029,
+      "offset": 1119,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1196,
+      "offset": 1286,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "StringLiteral",
-      "offset": 1234,
+      "offset": 1324,
       "length": 11,
       "value": "\"arrowDown\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1323,
+      "offset": 1413,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "StringLiteral",
-      "offset": 1352,
+      "offset": 1442,
       "length": 27,
       "value": "\"Скрыть товары\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1431,
+      "offset": 1521,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1494,
+      "offset": 1584,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1621,
+      "offset": 1711,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1630,
+      "offset": 1720,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1700,
+      "offset": 1790,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1709,
+      "offset": 1799,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1778,
+      "offset": 1868,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1787,
+      "offset": 1877,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2819,
+      "offset": 2909,
       "length": 3,
       "value": "244"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2823,
+      "offset": 2913,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2835,
+      "offset": 2925,
       "length": 3,
       "value": "244"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2839,
+      "offset": 2929,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2850,
+      "offset": 2940,
       "length": 3,
       "value": "247"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2854,
+      "offset": 2944,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2866,
+      "offset": 2956,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2906,
+      "offset": 2996,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3095,
+      "offset": 3185,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3173,
+      "offset": 3263,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3187,
+      "offset": 3277,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3273,
+      "offset": 3363,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3335,
+      "offset": 3425,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3349,
+      "offset": 3439,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3410,
+      "offset": 3500,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3425,
+      "offset": 3515,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3493,
+      "offset": 3583,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3579,
+      "offset": 3669,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3593,
+      "offset": 3683,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3679,
+      "offset": 3769,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3693,
+      "offset": 3783,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3781,
+      "offset": 3871,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3795,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
-      "kind": "IntegerLiteral",
       "offset": 3885,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3975,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3899,
+      "offset": 3989,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3975,
+      "offset": 4065,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4071,
+      "offset": 4161,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4085,
+      "offset": 4175,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4157,
+      "offset": 4247,
       "length": 2,
       "value": "34"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4172,
+      "offset": 4262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4243,
+      "offset": 4333,
       "length": 3,
       "value": "170"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4259,
+      "offset": 4349,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4352,
+      "offset": 4442,
       "length": 3,
       "value": "-15"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4368,
+      "offset": 4458,
       "length": 4,
       "value": "true"
     },
@@ -16713,52 +16683,80 @@
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
-      "kind": "StringLiteral",
-      "offset": 1814,
-      "length": 36,
-      "value": "\"Историй не найдено\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1898,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1950,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 2009,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2133,
+      "offset": 1293,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 2406,
+      "offset": 1330,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "StringLiteral",
+      "offset": 1877,
+      "length": 36,
+      "value": "\"Историй не найдено\""
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1961,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2013,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2072,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2196,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2469,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
-      "offset": 2487,
+      "offset": 2550,
       "length": 2,
       "value": "12"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2714,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2736,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/AnimatedCollectionViewLayout\/PageAttributesAnimator.swift",
@@ -16791,315 +16789,322 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 634,
+      "offset": 650,
       "length": 4,
       "value": "0.89"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 922,
+      "offset": 938,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1030,
+      "offset": 1039,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1129,
+      "offset": 1138,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1156,
+      "offset": 1165,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1218,
+      "offset": 1227,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1250,
+      "offset": 1259,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1297,
+      "offset": 1306,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1345,
+      "offset": 1354,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 1400,
+      "offset": 1409,
       "length": 27,
       "value": "\"frisbuy.albumDetailCVCell\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1557,
+      "offset": 1566,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1586,
+      "offset": 1595,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1928,
+      "offset": 1747,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1984,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2079,
+      "offset": 2135,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2359,
+      "offset": 2415,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2584,
+      "offset": 2640,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 2670,
+      "offset": 2726,
       "length": 7,
       "value": "\"cross\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2755,
+      "offset": 2811,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2925,
+      "offset": 2981,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 2971,
+      "offset": 3027,
       "length": 11,
       "value": "\"speakerOn\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 3026,
+      "offset": 3082,
       "length": 12,
       "value": "\"speakerOff\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3211,
+      "offset": 3267,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3692,
+      "offset": 3748,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 3730,
+      "offset": 3786,
       "length": 9,
       "value": "\"arrowUp\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3817,
+      "offset": 3873,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3881,
+      "offset": 3937,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 3910,
+      "offset": 3966,
       "length": 31,
       "value": "\"Показать товары\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3993,
+      "offset": 4049,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4056,
+      "offset": 4112,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 4183,
+      "offset": 4239,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 4192,
+      "offset": 4248,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 4262,
+      "offset": 4318,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 4271,
+      "offset": 4327,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 4340,
+      "offset": 4396,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "FloatLiteral",
-      "offset": 4349,
+      "offset": 4405,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4380,
+      "offset": 4436,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 9503,
+      "offset": 9714,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 10081,
+      "offset": 10292,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 10470,
+      "offset": 10681,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12067,
+      "offset": 12226,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 12090,
+      "offset": 12249,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 21566,
+      "offset": 21727,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "Array",
-      "offset": 25610,
+      "offset": 25895,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "Array",
-      "offset": 25662,
+      "offset": 25947,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 48888,
+      "offset": 49611,
       "length": 1,
       "value": "2"
     },
@@ -17155,44 +17160,72 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "Dictionary",
-      "offset": 615,
+      "offset": 623,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 690,
+      "offset": 698,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 727,
+      "offset": 735,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "StringLiteral",
-      "offset": 988,
+      "offset": 996,
       "length": 26,
       "value": "\"frisbuy.frisbuyStoriesVM\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1125,
+      "offset": 1133,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1294,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1331,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
       "kind": "Array",
-      "offset": 1276,
+      "offset": 1404,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2179,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/MediaVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2201,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/FlashButton.swift",
@@ -17834,77 +17867,77 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 359,
+      "offset": 387,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 409,
+      "offset": 437,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 668,
+      "offset": 696,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 750,
+      "offset": 778,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 915,
+      "offset": 943,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 997,
+      "offset": 1025,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1166,
+      "offset": 1194,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1263,
+      "offset": 1291,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 1289,
+      "offset": 1317,
       "length": 14,
       "value": "\"Купить\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1379,
+      "offset": 1407,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1742,
+      "offset": 1770,
       "length": 4,
       "value": "true"
     },
@@ -18037,98 +18070,112 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 1179,
+      "offset": 1172,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 1225,
+      "offset": 1218,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1247,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 1288,
+      "offset": 1306,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 1398,
+      "offset": 1416,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 1918,
+      "offset": 1936,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1966,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 7808,
+      "offset": 8407,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 12242,
+      "offset": 12871,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 12307,
+      "offset": 12936,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 12434,
+      "offset": 13063,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 12462,
+      "offset": 13091,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 12466,
+      "offset": 13095,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 12535,
+      "offset": 13164,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 12600,
+      "offset": 13229,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 12793,
+      "offset": 13422,
       "length": 1,
       "value": "0"
     },
@@ -18183,15 +18230,29 @@
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
+      "kind": "BooleanLiteral",
+      "offset": 533,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "StringLiteral",
-      "offset": 672,
+      "offset": 707,
       "length": 16,
       "value": "\"logged_in_code\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 1335,
+      "offset": 1370,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1479,
       "length": 5,
       "value": "false"
     },
@@ -18380,7 +18441,7 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/LinksCVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 181,
+      "offset": 208,
       "length": 5,
       "value": "false"
     },

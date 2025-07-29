@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FrisbuyStoriesSDK
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FrisbuyStoriesSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFAudio
 import AVFoundation
@@ -104,15 +104,14 @@ public enum FormStory : Swift.String {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class FrisbuyStories : UIKit.UICollectionViewController {
   @_Concurrency.MainActor @preconcurrency final public var dataReceived: ((Swift.Bool) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency final public var clickedPost: ((Swift.String) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency final public var clickedAlbum: ((Swift.String) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency final public var watchedPost: ((Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency final public var clickedPost: ((Swift.String, Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency final public var watchedPost: ((Swift.String, Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var swipedPost: ((Swift.Bool) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency final public var clickedButton: ((Swift.String, Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency final public var clickedButton: ((Swift.String, Swift.String, Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var didSelectProduct: ((FrisbuyStoriesSDK.Link, Swift.String) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency final public var tappedBuyButton: ((FrisbuyStoriesSDK.Link, Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency final public var tappedBuyButton: ((FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var visibleStories: ((Swift.Bool) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: (any FrisbuyStoriesSDK.FrisbuyStoriesDelegate)?, formStrory: FrisbuyStoriesSDK.FormStory = FormStory.square, space: CoreFoundation.CGFloat, paddings: UIKit.UIEdgeInsets?, contentBorder: CoreFoundation.CGFloat, isHorizontalScroll: Swift.Bool, heightWidget: CoreFoundation.CGFloat, rimColor: UIKit.UIColor, isSaveResult: Swift.Bool, isReactNative: Swift.Bool, isText: Swift.Bool = true, colorFont: UIKit.UIColor = .black, fontLabel: UIKit.UIFont = UIFont.systemFont(ofSize: 12, weight: .semibold), countPosts: Swift.Int? = nil, countElements: Swift.Int? = nil, width: CoreFoundation.CGFloat, radiusBox: CoreFoundation.CGFloat, segmentCode: Swift.String? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: (any FrisbuyStoriesSDK.FrisbuyStoriesDelegate)?, formStrory: FrisbuyStoriesSDK.FormStory = FormStory.square, space: CoreFoundation.CGFloat, paddings: UIKit.UIEdgeInsets?, contentBorder: CoreFoundation.CGFloat, isHorizontalScroll: Swift.Bool, heightWidget: CoreFoundation.CGFloat, rimColor: UIKit.UIColor, isSaveResult: Swift.Bool, isReactNative: Swift.Bool, isText: Swift.Bool = true, colorFont: UIKit.UIColor = .black, fontLabel: UIKit.UIFont = UIFont.systemFont(ofSize: 12, weight: .semibold), countPosts: Swift.Int? = nil, countElements: Swift.Int? = nil, width: CoreFoundation.CGFloat, radiusBox: CoreFoundation.CGFloat, segmentCode: Swift.String? = nil, isForgetPosition: Swift.Bool = false, isSort: Swift.Bool = false)
   @_Concurrency.MainActor @preconcurrency @objc override final public func loadView()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
