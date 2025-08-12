@@ -17104,7 +17104,7 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 49669,
+      "offset": 49712,
       "length": 1,
       "value": "2"
     },
@@ -18203,56 +18203,56 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 236,
+      "offset": 228,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "StringLiteral",
-      "offset": 411,
+      "offset": 403,
       "length": 26,
       "value": "\"frisbuy.frisbuyStoriesVM\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 470,
+      "offset": 462,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 503,
+      "offset": 495,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 533,
+      "offset": 525,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "StringLiteral",
-      "offset": 707,
+      "offset": 699,
       "length": 16,
       "value": "\"logged_in_code\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 1370,
+      "offset": 1362,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 1479,
+      "offset": 1471,
       "length": 5,
       "value": "false"
     },
