@@ -17069,42 +17069,42 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12226,
+      "offset": 12401,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 12249,
+      "offset": 12424,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 21727,
+      "offset": 21902,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "Array",
-      "offset": 25895,
+      "offset": 26292,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "Array",
-      "offset": 25947,
+      "offset": 26344,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 49712,
+      "offset": 50469,
       "length": 1,
       "value": "2"
     },
@@ -18105,77 +18105,77 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "FloatLiteral",
-      "offset": 1936,
+      "offset": 1928,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 1966,
+      "offset": 1958,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 8428,
+      "offset": 8419,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 12892,
+      "offset": 12883,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 12957,
+      "offset": 12948,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13084,
+      "offset": 13075,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13112,
+      "offset": 13103,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13116,
+      "offset": 13107,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13185,
+      "offset": 13176,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13250,
+      "offset": 13241,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13443,
+      "offset": 13434,
       "length": 1,
       "value": "0"
     },
