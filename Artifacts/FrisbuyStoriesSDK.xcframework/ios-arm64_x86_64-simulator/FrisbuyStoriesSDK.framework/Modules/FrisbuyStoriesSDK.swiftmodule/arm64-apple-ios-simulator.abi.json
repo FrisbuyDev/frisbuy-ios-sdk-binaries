@@ -4127,12 +4127,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((FrisbuyStoriesSDK.Link, Swift.String) -> ())?",
+                "printedName": "((FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(FrisbuyStoriesSDK.Link, Swift.String) -> ()",
+                    "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4142,13 +4142,19 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String)",
+                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Link",
                             "printedName": "FrisbuyStoriesSDK.Link",
                             "usr": "s:17FrisbuyStoriesSDK4LinkV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
                           },
                           {
                             "kind": "TypeNominal",
@@ -4165,8 +4171,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_SStcSgvp",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_SStcSgvp",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_S2StcSgvp",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_S2StcSgvp",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -4186,12 +4192,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((FrisbuyStoriesSDK.Link, Swift.String) -> ())?",
+                    "printedName": "((FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String) -> ()",
+                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -4201,13 +4207,19 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(FrisbuyStoriesSDK.Link, Swift.String)",
+                            "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Link",
                                 "printedName": "FrisbuyStoriesSDK.Link",
                                 "usr": "s:17FrisbuyStoriesSDK4LinkV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
                               },
                               {
                                 "kind": "TypeNominal",
@@ -4224,8 +4236,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_SStcSgvg",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_SStcSgvg",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_S2StcSgvg",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_S2StcSgvg",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4246,12 +4258,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((FrisbuyStoriesSDK.Link, Swift.String) -> ())?",
+                    "printedName": "((FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String) -> ()",
+                        "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -4261,13 +4273,19 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(FrisbuyStoriesSDK.Link, Swift.String)",
+                            "printedName": "(FrisbuyStoriesSDK.Link, Swift.String, Swift.String)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Link",
                                 "printedName": "FrisbuyStoriesSDK.Link",
                                 "usr": "s:17FrisbuyStoriesSDK4LinkV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
                               },
                               {
                                 "kind": "TypeNominal",
@@ -4284,8 +4302,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_SStcSgvs",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_SStcSgvs",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_S2StcSgvs",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_S2StcSgvs",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -4305,8 +4323,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_SStcSgvM",
-                "mangledName": "$s17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_SStcSgvM",
+                "usr": "s:17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_S2StcSgvM",
+                "mangledName": "$s17FrisbuyStoriesSDK0aB0C16didSelectProductyAA4LinkV_S2StcSgvM",
                 "moduleName": "FrisbuyStoriesSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -5211,6 +5229,35 @@
               "Custom",
               "AccessControl",
               "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "programmaticallySelectItem",
+            "printedName": "programmaticallySelectItem(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C26programmaticallySelectItem2aty10Foundation9IndexPathV_tF",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C26programmaticallySelectItem2aty10Foundation9IndexPathV_tF",
+            "moduleName": "FrisbuyStoriesSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -16698,63 +16745,63 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "StringLiteral",
-      "offset": 1877,
+      "offset": 1885,
       "length": 36,
       "value": "\"Историй не найдено\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
-      "offset": 1961,
+      "offset": 1969,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
-      "offset": 2013,
+      "offset": 2021,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 2072,
+      "offset": 2080,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 2196,
+      "offset": 2204,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 2469,
+      "offset": 2477,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "IntegerLiteral",
-      "offset": 2550,
+      "offset": 2558,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 2714,
+      "offset": 2722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
-      "offset": 2736,
+      "offset": 2744,
       "length": 5,
       "value": "false"
     },
@@ -18231,28 +18278,28 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 525,
+      "offset": 526,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "StringLiteral",
-      "offset": 699,
+      "offset": 754,
       "length": 16,
       "value": "\"logged_in_code\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 1362,
+      "offset": 1417,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 1471,
+      "offset": 1526,
       "length": 5,
       "value": "false"
     },
@@ -18490,35 +18537,35 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "Dictionary",
-      "offset": 518,
+      "offset": 818,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 838,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 556,
+      "offset": 856,
       "length": 35,
       "value": "\"application\/x-www-form-urlencoded\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 608,
+      "offset": 908,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 620,
+      "offset": 920,
       "length": 18,
       "value": "\"application\/json\""
     },
