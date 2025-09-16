@@ -4873,8 +4873,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
+                "name": "Array",
+                "printedName": "[Swift.String]",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4884,7 +4884,7 @@
                   }
                 ],
                 "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -4902,8 +4902,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBox11segmentCode0F14ForgetPosition0F4SortACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgA4_SbA4_So7UIColorCS3bA9_So6UIFontCSiSgA12_A4_A4_SSSgS2btcfc",
-            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBox11segmentCode0F14ForgetPosition0F4SortACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgA4_SbA4_So7UIColorCS3bA9_So6UIFontCSiSgA12_A4_A4_SSSgS2btcfc",
+            "usr": "s:17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBox11segmentCode0F14ForgetPosition0F4SortACSS_SbAA0aB8Delegate_pSgAA9FormStoryO14CoreFoundation7CGFloatVSo12UIEdgeInsetsVSgA4_SbA4_So7UIColorCS3bA9_So6UIFontCSiSgA12_A4_A4_SaySSGS2btcfc",
+            "mangledName": "$s17FrisbuyStoriesSDK0aB0C7embedId8isAlbums8delegate10formStrory5space8paddings13contentBorder0F16HorizontalScroll12heightWidget8rimColor0F10SaveResult0F11ReactNative0F4Text9colorFont9fontLabel10countPosts13countElements5width9radiusBox11segmentCode0F14ForgetPosition0F4SortACSS_SbAA0aB8Delegate_pSgAA9FormStoryO12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSgA4_SbA4_So7UIColorCS3bA9_So6UIFontCSiSgA12_A4_A4_SaySSGS2btcfc",
             "moduleName": "FrisbuyStoriesSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -16730,6 +16730,13 @@
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "Array",
+      "offset": 1249,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
       "kind": "BooleanLiteral",
       "offset": 1293,
       "length": 5,
@@ -16790,6 +16797,13 @@
       "offset": 2558,
       "length": 2,
       "value": "12"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
+      "kind": "Array",
+      "offset": 2693,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/FrisbuyStories\/FrisbuyStories.swift",
@@ -18256,6 +18270,13 @@
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
+      "kind": "Array",
+      "offset": 347,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
       "kind": "StringLiteral",
       "offset": 403,
       "length": 26,
@@ -18295,6 +18316,13 @@
       "offset": 1417,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
+      "kind": "Array",
+      "offset": 1507,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Models\/FrisbuyStoriesVM.swift",
