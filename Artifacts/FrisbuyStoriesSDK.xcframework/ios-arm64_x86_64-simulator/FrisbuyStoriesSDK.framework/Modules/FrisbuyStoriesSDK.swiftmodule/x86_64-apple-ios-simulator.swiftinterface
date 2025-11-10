@@ -105,7 +105,7 @@ public enum FormStory : Swift.String {
   }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class FrisbuyStories : UIKit.UICollectionViewController {
-  @_Concurrency.MainActor @preconcurrency final public var dataReceived: ((Swift.Bool) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency final public var dataReceived: ((Swift.Bool, Swift.Bool) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var clickedPost: ((Swift.String, Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var watchedPost: ((Swift.String, Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var swipedPost: ((Swift.Bool) -> Swift.Void)?
