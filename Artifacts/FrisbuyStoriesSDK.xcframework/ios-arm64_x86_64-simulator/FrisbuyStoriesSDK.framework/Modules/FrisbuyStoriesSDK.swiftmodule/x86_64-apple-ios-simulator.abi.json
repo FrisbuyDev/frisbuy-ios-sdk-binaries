@@ -407,34 +407,6 @@
       },
       {
         "kind": "Import",
-        "name": "QuickLook",
-        "printedName": "QuickLook",
-        "declKind": "Import",
-        "moduleName": "FrisbuyStoriesSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AVKit",
-        "printedName": "AVKit",
-        "declKind": "Import",
-        "moduleName": "FrisbuyStoriesSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMedia",
-        "printedName": "CoreMedia",
-        "declKind": "Import",
-        "moduleName": "FrisbuyStoriesSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FrisbuyStoriesSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -14592,7 +14564,10 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "FrisbuyStoriesSDK"
+        "moduleName": "FrisbuyStoriesSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -15907,356 +15882,6 @@
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 219,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 355,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 441,
-      "length": 7,
-      "value": "\"cross\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 571,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 605,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1043,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 1129,
-      "length": 9,
-      "value": "\"arrowUp\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1216,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1280,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "StringLiteral",
-      "offset": 1309,
-      "length": 31,
-      "value": "\"Показать товары\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1392,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1455,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1582,
-      "length": 4,
-      "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1591,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1661,
-      "length": 4,
-      "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1670,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1739,
-      "length": 4,
-      "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1748,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3491,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3497,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3534,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3650,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3656,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3693,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4204,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4219,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4304,
-      "length": 3,
-      "value": "-16"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4320,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4386,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4401,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4466,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4481,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4557,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4653,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4667,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4739,
-      "length": 2,
-      "value": "34"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4754,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4825,
-      "length": 3,
-      "value": "170"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4841,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4954,
-      "length": 3,
-      "value": "-48"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4970,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5038,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5138,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5152,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5235,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5249,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5330,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5344,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5449,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/StoriesDetailVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5463,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/PlayerView.swift",
       "kind": "StringLiteral",
       "offset": 2116,
@@ -16399,350 +16024,350 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 634,
+      "offset": 728,
       "length": 2,
       "value": "52"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1036,
+      "offset": 1130,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1080,
+      "offset": 1174,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1119,
+      "offset": 1213,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1286,
+      "offset": 1380,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "StringLiteral",
-      "offset": 1324,
+      "offset": 1418,
       "length": 11,
       "value": "\"arrowDown\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1413,
+      "offset": 1507,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "StringLiteral",
-      "offset": 1442,
+      "offset": 1536,
       "length": 27,
       "value": "\"Скрыть товары\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1521,
+      "offset": 1615,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1584,
+      "offset": 1678,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1711,
+      "offset": 1805,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1720,
+      "offset": 1814,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1790,
+      "offset": 1884,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1799,
+      "offset": 1893,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1868,
+      "offset": 1962,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1877,
+      "offset": 1971,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2909,
+      "offset": 3003,
       "length": 3,
       "value": "244"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2913,
+      "offset": 3007,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2925,
+      "offset": 3019,
       "length": 3,
       "value": "244"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2929,
+      "offset": 3023,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2940,
+      "offset": 3034,
       "length": 3,
       "value": "247"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2944,
+      "offset": 3038,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2956,
+      "offset": 3050,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2996,
+      "offset": 3090,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3185,
+      "offset": 3279,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3263,
+      "offset": 3357,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3277,
+      "offset": 3371,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3363,
+      "offset": 3457,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3425,
+      "offset": 3519,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3439,
+      "offset": 3533,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3500,
+      "offset": 3594,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3515,
+      "offset": 3609,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3583,
+      "offset": 3677,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3669,
+      "offset": 3763,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3683,
+      "offset": 3777,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3769,
+      "offset": 3863,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3783,
+      "offset": 3877,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3871,
+      "offset": 3965,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3885,
+      "offset": 3979,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3975,
+      "offset": 4069,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3989,
+      "offset": 4083,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4065,
+      "offset": 4159,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4161,
+      "offset": 4255,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4175,
+      "offset": 4269,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4247,
+      "offset": 4341,
       "length": 2,
       "value": "34"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4262,
+      "offset": 4356,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4333,
+      "offset": 4427,
       "length": 3,
       "value": "170"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4349,
+      "offset": 4443,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4442,
+      "offset": 4536,
       "length": 3,
       "value": "-15"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/DetailMediaVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4458,
+      "offset": 4552,
       "length": 4,
       "value": "true"
     },
@@ -17337,63 +16962,63 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 10833,
+      "offset": 10651,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11411,
+      "offset": 11229,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11800,
+      "offset": 11618,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13534,
+      "offset": 13352,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 13557,
+      "offset": 13375,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 23035,
+      "offset": 22853,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "Array",
-      "offset": 27430,
+      "offset": 27248,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "Array",
-      "offset": 27482,
+      "offset": 27300,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 52020,
+      "offset": 51837,
       "length": 1,
       "value": "2"
     },
@@ -17407,21 +17032,21 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/AnimatedCollectionViewLayout\/AnimatedCollectionViewLayout.swift",
       "kind": "IntegerLiteral",
-      "offset": 4026,
+      "offset": 3907,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/AnimatedCollectionViewLayout\/AnimatedCollectionViewLayout.swift",
       "kind": "IntegerLiteral",
-      "offset": 4443,
+      "offset": 4324,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/ThirtParty\/AnimatedCollectionViewLayout\/AnimatedCollectionViewLayout.swift",
       "kind": "IntegerLiteral",
-      "offset": 4857,
+      "offset": 4738,
       "length": 1,
       "value": "0"
     },
@@ -18170,77 +17795,77 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 387,
+      "offset": 454,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 437,
+      "offset": 504,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 696,
+      "offset": 763,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 778,
+      "offset": 845,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 943,
+      "offset": 1010,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1025,
+      "offset": 1092,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1194,
+      "offset": 1261,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1291,
+      "offset": 1358,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "StringLiteral",
-      "offset": 1317,
+      "offset": 1384,
       "length": 14,
       "value": "\"Купить\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1407,
+      "offset": 1474,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/LinkCVCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1770,
+      "offset": 1837,
       "length": 4,
       "value": "true"
     },
@@ -18702,56 +18327,21 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/CacheManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 191,
+      "offset": 6423,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/CacheManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 208,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/CacheManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 214,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/CacheManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 221,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/CacheManager.swift",
-      "kind": "StringLiteral",
-      "offset": 237,
-      "length": 14,
-      "value": "\"cacheManager\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/CacheManager.swift",
-      "kind": "StringLiteral",
-      "offset": 473,
-      "length": 22,
-      "value": "\"frisbuy.cacheManager\""
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/CacheManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1134,
+      "offset": 6596,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/CacheManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1153,
+      "offset": 6615,
       "length": 5,
       "value": "false"
     },
