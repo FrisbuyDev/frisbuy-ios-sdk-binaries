@@ -18396,38 +18396,52 @@
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
+      "kind": "Array",
+      "offset": 518,
+      "length": 87,
+      "value": "[\"https:\/\/api01.frisbuy.com\", \"https:\/\/api02.frisbuy.com\", \"https:\/\/api03.frisbuy.com\"]"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "Dictionary",
-      "offset": 818,
+      "offset": 1000,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 838,
+      "offset": 1020,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 856,
+      "offset": 1038,
       "length": 35,
       "value": "\"application\/x-www-form-urlencoded\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 908,
+      "offset": 1090,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 920,
+      "offset": 1102,
       "length": 18,
       "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
+      "kind": "Array",
+      "offset": 1263,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
