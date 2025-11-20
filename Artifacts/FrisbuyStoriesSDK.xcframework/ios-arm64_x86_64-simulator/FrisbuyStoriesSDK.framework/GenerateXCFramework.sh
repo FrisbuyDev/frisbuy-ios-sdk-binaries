@@ -28,15 +28,13 @@ rm -rf outputDirectory
 xcodebuild archive -scheme $moduleName \
      -archivePath $iphoneosArchiveDirectory \
      -sdk iphoneos \
-     IPHONEOS_DEPLOYMENT_TARGET=14.0 \
      SKIP_INSTALL=NO BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
-     OTHER_SWIFT_FLAGS="-swift-version 5"
+
 xcodebuild archive -scheme $moduleName \
      -archivePath $iphoneosSimulatorDirectory \
      -sdk iphonesimulator \
-     IPHONEOS_DEPLOYMENT_TARGET=14.0 \
      SKIP_INSTALL=NO BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
-     OTHER_SWIFT_FLAGS="-swift-version 5"
+
 ## XCFramework
 xcodebuild -create-xcframework \
     -framework "$iphoneosArchiveDirectory/Products/Library/Frameworks/$moduleName.framework" \
