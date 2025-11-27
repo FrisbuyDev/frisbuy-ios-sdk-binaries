@@ -5515,13 +5515,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -7292,13 +7285,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -11052,13 +11038,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -15135,13 +15114,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
             "name": "_ExpressibleByImageLiteral",
             "printedName": "_ExpressibleByImageLiteral",
             "usr": "s:s26_ExpressibleByImageLiteralP",
@@ -15275,13 +15247,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -15843,13 +15808,6 @@
             "printedName": "_HasCustomAnyHashableRepresentation",
             "usr": "s:s35_HasCustomAnyHashableRepresentationP",
             "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -17015,7 +16973,7 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 51837,
+      "offset": 53445,
       "length": 1,
       "value": "2"
     },
@@ -18044,63 +18002,63 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 8419,
+      "offset": 8597,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13066,
+      "offset": 13231,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13131,
+      "offset": 13296,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13258,
+      "offset": 13423,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13286,
+      "offset": 13451,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13290,
+      "offset": 13455,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13359,
+      "offset": 13524,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13424,
+      "offset": 13589,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Views\/SegmentedProgressBar.swift",
       "kind": "IntegerLiteral",
-      "offset": 13617,
+      "offset": 13782,
       "length": 1,
       "value": "0"
     },
@@ -18472,160 +18430,160 @@
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "StringLiteral",
       "offset": 802,
-      "length": 16,
-      "value": "\"Roboto-Regular\""
+      "length": 15,
+      "value": "\"Inter-Regular\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 826,
+      "offset": 825,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 992,
+      "offset": 991,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1043,
+      "offset": 1042,
       "length": 9,
       "value": "\"#D9D9D9\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1129,
+      "offset": 1128,
       "length": 9,
       "value": "\"#616F77\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1172,
+      "offset": 1171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1229,
+      "offset": 1228,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1265,
-      "length": 16,
-      "value": "\"Roboto-Regular\""
+      "offset": 1264,
+      "length": 15,
+      "value": "\"Inter-Regular\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1289,
+      "offset": 1287,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1346,
+      "offset": 1344,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1355,
+      "offset": 1353,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1366,
+      "offset": 1364,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1376,
+      "offset": 1374,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1414,
+      "offset": 1412,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1547,
+      "offset": 1545,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1611,
+      "offset": 1609,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1875,
+      "offset": 1873,
       "length": 20,
       "value": "\"Отправить\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2008,
+      "offset": 2006,
       "length": 9,
       "value": "\"#0495FF\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2066,
-      "length": 16,
-      "value": "\"Roboto-Regular\""
+      "offset": 2064,
+      "length": 15,
+      "value": "\"Inter-Regular\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2090,
+      "offset": 2087,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2224,
+      "offset": 2221,
       "length": 16,
       "value": "\"Закрыть\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2394,
-      "length": 16,
-      "value": "\"Roboto-Regular\""
+      "offset": 2391,
+      "length": 15,
+      "value": "\"Inter-Regular\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/QuestionController\/QuestionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2418,
+      "offset": 2414,
       "length": 2,
       "value": "16"
     },
