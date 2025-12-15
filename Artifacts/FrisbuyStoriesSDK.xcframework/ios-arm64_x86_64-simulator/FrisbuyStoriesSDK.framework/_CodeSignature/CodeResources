@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		yPxglduQwmIQzR5km+7OpG0N+0k=
+		QEUujnSFhYOu2BfAsZgLTQNp9Yk=
 		</data>
 		<key>GenerateXCFramework.sh</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/FrisbuyStoriesSDK-Swift.h</key>
 		<data>
-		hswsYo3+MRhyUOqRTxaxc8QyvnI=
+		Nfn3kNKL1y5m0axJNtyP5Jj17GE=
 		</data>
 		<key>Headers/FrisbuyStoriesSDK.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HSl3NiKR+u/Iynvr+br55Co4gSs=
+		GsiWI23/ZTjYAGwpmjiuZA9p748=
 		</data>
 		<key>Inter-Bold.ttf</key>
 		<data>
@@ -42,43 +42,43 @@
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OuVVqybPC/T8rOsklzT/iBEbgfw=
+		+7F1NaU2LGODZb7cxv0P951Of0w=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WMkYIPpL71rtychry9SxRgK6Vms=
+		YsZ+OUwKveSeYi2ATGE96L1Inx0=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Uuz5gxC7PPGtz2O9jbGEQfItrw4=
+		r19SlV3nh1XPYOsM5TdNTxvbCeA=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WMkYIPpL71rtychry9SxRgK6Vms=
+		YsZ+OUwKveSeYi2ATGE96L1Inx0=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		azyIETcAvAOR1Myg0ZbXeT2rpag=
+		nVIDhdHoQxYKKRRX/qgDvHwuwMU=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OuVVqybPC/T8rOsklzT/iBEbgfw=
+		+7F1NaU2LGODZb7cxv0P951Of0w=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FWTtMiLwgb8OmiiTC2IkLfDMqRY=
+		MHXuiDevNqyWvzmw7X2PSYOGOqA=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		A42csZG+iv3a4j5tIc1SqJ67dm4=
+		rp5pqx/m/kpBAByHfss9rFBvrf4=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FWTtMiLwgb8OmiiTC2IkLfDMqRY=
+		MHXuiDevNqyWvzmw7X2PSYOGOqA=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QIPUu68euO61WtuKiHGEDgbyQC0=
+		cQErS9UbtK6CuDAMQKNGFvCUaUw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -143,7 +143,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZtD3Xw3u5rSZk52dW6c96ijw6GJ7YHQavZk2aomLbuk=
+			gAxtGddplb3SSJ+SWD8ntqKGkPRZCNNH/PO05XKLGOs=
 			</data>
 		</dict>
 		<key>GenerateXCFramework.sh</key>
@@ -157,7 +157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fo5LNGhLkYiewd6/0zWleQwFaTiNA25fbnVrZpQuyvw=
+			7lb2fCdUcgQZphqo8sxewZMxJam039Fk0MX5w1oMCrQ=
 			</data>
 		</dict>
 		<key>Headers/FrisbuyStoriesSDK.h</key>
@@ -199,70 +199,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x4MGB3fiSMvjcqSAhfQHxYkROZ+dXbkP6m+UC5J52/Q=
+			YU1kmJbT0kucBJ+BvSrVNRuIAHE4+SwKkLGQtE6ZyF0=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f9EXfBXuqF7Gg6MR9r0r9tUxOAcCGLtSfRd0jCbbs/c=
+			PMGxjmVM6HfuqvfV0TMOIQUAvdY1L6lxW8x86/sxk8o=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mHJnd9HciTecNcr2NRKgdbCsiic5OIhifqULW8BElhI=
+			xH8HIMQF15LQcEVixhlUGrPg7OIZAcQ96zy7ASnT9Qc=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f9EXfBXuqF7Gg6MR9r0r9tUxOAcCGLtSfRd0jCbbs/c=
+			PMGxjmVM6HfuqvfV0TMOIQUAvdY1L6lxW8x86/sxk8o=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fZj3zzEXqEGymJaZ6/623aZgivIp42dOTqEufuufi9w=
+			lgvTBOa2QkUtFQZ6/xpBi2UyKICZKhoTljdQmvo0IL0=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x4MGB3fiSMvjcqSAhfQHxYkROZ+dXbkP6m+UC5J52/Q=
+			YU1kmJbT0kucBJ+BvSrVNRuIAHE4+SwKkLGQtE6ZyF0=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HmzSPthBqfUiPjI4kCgJUtuxWMmLtWHOGqznloYEMuI=
+			xmKrdpO8woeIBRgWR6UwFcrRXp+4nqYsMcUO3VLwLi0=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2ZiVPJCNWvUgVol5ejveyy+XgLHf8FCBStNID+IVmDg=
+			wCGqg/HqdxGWc4P1iyQ5l2Kam9r1kmWeKZuVZfjcXhQ=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HmzSPthBqfUiPjI4kCgJUtuxWMmLtWHOGqznloYEMuI=
+			xmKrdpO8woeIBRgWR6UwFcrRXp+4nqYsMcUO3VLwLi0=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0zhq+dK57LikXgMZqli0p1jb6kP1A9eezwpwpXlhAhk=
+			aDN3YcDuM9PtH88zX8x1KCPo+wKqghuhkddtjpLozMQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
