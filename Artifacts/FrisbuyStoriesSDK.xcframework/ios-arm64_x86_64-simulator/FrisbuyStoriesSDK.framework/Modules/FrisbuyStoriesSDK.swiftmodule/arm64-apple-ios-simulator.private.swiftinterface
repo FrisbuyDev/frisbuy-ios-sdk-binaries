@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FrisbuyStoriesSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FrisbuyStoriesSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFAudio
 import AVFoundation
 import AVKit
@@ -102,9 +102,7 @@ public struct Interactions : Swift.Decodable {
 public enum FormStory : Swift.String {
   case round
   case square
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -113,9 +111,7 @@ public enum FormStory : Swift.String {
 public enum TemplateCell : Swift.String {
   case fourpaw
   case classic
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -130,9 +126,7 @@ public enum TemplateCell : Swift.String {
   @_Concurrency.MainActor @preconcurrency final public var didSelectProduct: ((FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var tappedBuyButton: ((FrisbuyStoriesSDK.Link, Swift.String, Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var visibleStories: ((Swift.Bool) -> Swift.Void)?
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency convenience public init(embedId: Swift.String, isAlbums: Swift.Bool = false, delegate: (any FrisbuyStoriesSDK.FrisbuyStoriesDelegate)?, formStrory: FrisbuyStoriesSDK.FormStory = FormStory.square, space: CoreFoundation.CGFloat, paddings: UIKit.UIEdgeInsets?, contentBorder: CoreFoundation.CGFloat, isHorizontalScroll: Swift.Bool, heightWidget: CoreFoundation.CGFloat, rimColor: UIKit.UIColor, isSaveResult: Swift.Bool, isReactNative: Swift.Bool, isText: Swift.Bool = true, colorFont: UIKit.UIColor = .black, fontLabel: UIKit.UIFont = UIFont.systemFont(ofSize: 12, weight: .semibold), countPosts: Swift.Int? = nil, countElements: Swift.Int? = nil, width: CoreFoundation.CGFloat, radiusBox: CoreFoundation.CGFloat, segmentCode: [Swift.String] = [], isForgetPosition: Swift.Bool = false, isSort: Swift.Bool = false, wayShow: UIKit.UIModalTransitionStyle = .coverVertical, isTransferURL: Swift.Bool = false, templateCell: FrisbuyStoriesSDK.TemplateCell = .classic)
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc override final public func loadView()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
@@ -145,12 +139,8 @@ public enum TemplateCell : Swift.String {
   @_Concurrency.MainActor @preconcurrency final public func programmaticallySelectItem(at indexPath: Foundation.IndexPath)
   @_Concurrency.MainActor @preconcurrency final public func programmaticallySelectAlbumId(at albumId: Swift.Int)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(collectionViewLayout layout: UIKit.UICollectionViewLayout)
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
-  #endif
   @objc deinit
 }
 public struct PageAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
@@ -171,14 +161,10 @@ public struct ParallaxAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAni
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public class var layoutAttributesClass: Swift.AnyClass {
     @objc get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutAttributesForElements(in rect: CoreFoundation.CGRect) -> [UIKit.UICollectionViewLayoutAttributes]?
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func shouldInvalidateLayout(forBoundsChange newBounds: CoreFoundation.CGRect) -> Swift.Bool
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
-  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AnimatedCollectionViewLayoutAttributes : UIKit.UICollectionViewLayoutAttributes {
@@ -187,12 +173,8 @@ public struct ParallaxAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAni
   @_Concurrency.MainActor @preconcurrency public var startOffset: CoreFoundation.CGFloat
   @_Concurrency.MainActor @preconcurrency public var middleOffset: CoreFoundation.CGFloat
   @_Concurrency.MainActor @preconcurrency public var endOffset: CoreFoundation.CGFloat
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
   @objc deinit
 }
@@ -308,43 +290,19 @@ extension FrisbuyStoriesSDK.ProgressHUD {
 extension FrisbuyStoriesSDK.ProgressHUD {
   @_Concurrency.MainActor @preconcurrency public class func dismiss()
   @_Concurrency.MainActor @preconcurrency public class func remove()
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func show(_ text: Swift.String? = nil, interaction: Swift.Bool = true)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func show(_ text: Swift.String? = nil, icon: FrisbuyStoriesSDK.AnimatedIcon, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func showSucceed(_ text: Swift.String? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func showFailed(_ text: Swift.String? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func showFailed(_ error: (any Swift.Error)?, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func showAdded(_ text: Swift.String? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func show(_ text: Swift.String? = nil, icon: FrisbuyStoriesSDK.AlertIcon, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func show(_ text: Swift.String? = nil, symbol: Swift.String, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func showSuccess(_ text: Swift.String? = nil, image: UIKit.UIImage? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func showError(_ text: Swift.String? = nil, image: UIKit.UIImage? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func showError(_ error: (any Swift.Error)?, image: UIKit.UIImage? = nil, interaction: Swift.Bool = true, delay: Foundation.TimeInterval? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public class func showProgress(_ progress: CoreFoundation.CGFloat, interaction: Swift.Bool = false)
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public class func showProgress(_ text: Swift.String?, _ progress: CoreFoundation.CGFloat, interaction: Swift.Bool = false)
-  #endif
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ProgressHUD : UIKit.UIView {
   @objc deinit
@@ -359,77 +317,37 @@ open class KeychainWrapper {
   public var accessGroup: Swift.String? {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(serviceName: Swift.String, accessGroup: Swift.String? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func hasValue(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func accessibilityOfKey(_ key: Swift.String) -> FrisbuyStoriesSDK.KeychainItemAccessibility?
-  #endif
   open func allKeys() -> Swift.Set<Swift.String>
-  #if compiler(>=5.3) && $NonescapableTypes
   open func integer(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Int?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func float(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Float?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func double(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Double?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func bool(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func string(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func object(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> (any Foundation.NSCoding)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func data(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Foundation.Data?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func dataRef(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Foundation.Data?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func set(_ value: Swift.Int, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func set(_ value: Swift.Float, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func set(_ value: Swift.Double, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func set(_ value: Swift.Bool, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func set(_ value: Swift.String, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func set(_ value: any Foundation.NSCoding, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func set(_ value: Foundation.Data, forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "remove is deprecated, use removeObject instead")
   @discardableResult
   open func remove(key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func removeObject(forKey key: Swift.String, withAccessibility accessibility: FrisbuyStoriesSDK.KeychainItemAccessibility? = nil) -> Swift.Bool
-  #endif
   open func removeAllKeys() -> Swift.Bool
   open class func wipeKeychain()
   @objc deinit
@@ -469,9 +387,7 @@ public struct CubeAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimato
   public func animate(collectionView: UIKit.UICollectionView, attributes: FrisbuyStoriesSDK.AnimatedCollectionViewLayoutAttributes)
 }
 extension UIKit.UIViewController {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func convertCSSColorToRGBA(cssColor: Swift.String) -> UIKit.UIColor?
-  #endif
 }
 public struct RotateInOutAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAnimator {
   public var minAlpha: CoreFoundation.CGFloat
@@ -487,21 +403,15 @@ public struct ZoomInOutAttributesAnimator : FrisbuyStoriesSDK.LayoutAttributesAn
 public let progressIndicatorViewTag: Swift.Int
 public let progressViewTag: Swift.Int
 extension UIKit.UIImage {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func named(_ value: Swift.String) -> UIKit.UIImage?
-  #endif
 }
 public protocol SDWebImageManagerWrappedDelegate {
-  #if compiler(>=5.3) && $NonescapableTypes
-  func loadImage(with: Foundation.URL?, progress: Any?, _ handler: @escaping (UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?, Swift.Int, Swift.Bool, Foundation.URL?) -> Swift.Void)
-  #endif
+  func loadImage(with: Foundation.URL?, progress: Any?, _ handler: @escaping ((UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?, Swift.Int, Swift.Bool, Foundation.URL?) -> Swift.Void))
 }
 @_hasMissingDesignatedInitializers public class SDWebImageManagerWrapped {
   public static let shared: FrisbuyStoriesSDK.SDWebImageManagerWrapped
   public var delegate: (any FrisbuyStoriesSDK.SDWebImageManagerWrappedDelegate)?
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func loadImage(with: Foundation.URL?, progress: Any?, cancel: Swift.Bool = false, new: Swift.Bool = false, _ handler: @escaping (UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?, Swift.Int, Swift.Bool, Foundation.URL?) -> Swift.Void)
-  #endif
+  public func loadImage(with: Foundation.URL?, progress: Any?, cancel: Swift.Bool = false, new: Swift.Bool = false, _ handler: @escaping ((UIKit.UIImage?, Foundation.Data?, (any Swift.Error)?, Swift.Int, Swift.Bool, Foundation.URL?) -> Swift.Void))
   @objc deinit
 }
 public enum Result<T> {
