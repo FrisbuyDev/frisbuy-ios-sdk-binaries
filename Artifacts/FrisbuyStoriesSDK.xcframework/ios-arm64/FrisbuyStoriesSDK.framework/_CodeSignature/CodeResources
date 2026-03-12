@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		yPxglduQwmIQzR5km+7OpG0N+0k=
+		QEUujnSFhYOu2BfAsZgLTQNp9Yk=
 		</data>
 		<key>GenerateXCFramework.sh</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/FrisbuyStoriesSDK-Swift.h</key>
 		<data>
-		BPrTT/Fh2mhMGiRAaEiigP5shMQ=
+		0+3pWroKfM5Vl602ST2oT3Gjils=
 		</data>
 		<key>Headers/FrisbuyStoriesSDK.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TI2Pd27mzKccA+2j6WKmrKqu5Ow=
+		Lnyodcyg/fas/4UWr08dqOgNoPY=
 		</data>
 		<key>Inter-Bold.ttf</key>
 		<data>
@@ -42,23 +42,23 @@
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		gCZ+SrEE8nWYxFB5jkJP2qRqfuI=
+		DR3TLUpWnqNWFSwqh4BYfxow9gg=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		JaWmPzCPz3uwEJjCzYuaIzW1yPo=
+		+QvXDEWEjZs2aesaz2NFNIhVJXI=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		NdhWxVo5vWbmErLYq6Tw4z+nPgc=
+		ZsztXRzRnmQ27zHtAQ7E5Q+V9L4=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		JaWmPzCPz3uwEJjCzYuaIzW1yPo=
+		+QvXDEWEjZs2aesaz2NFNIhVJXI=
 		</data>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RwhBI7oV45jJhwY4LbJInEnwiyI=
+		B+oMs8LARUsnt2cMd03Fxc5TULM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,6 +87,18 @@
 		<key>RobotoSlab-Regular.ttf</key>
 		<data>
 		pZbEXdm/FTQe77fd5/yEIqXccFY=
+		</data>
+		<key>Suisseintl-medium.otf</key>
+		<data>
+		CpwWoIZ9O9U+Qu1wErtQ+YX8EHQ=
+		</data>
+		<key>Suisseintl-regular.ttf</key>
+		<data>
+		keLNO6uXt5oCWshP2Orjl3x0doU=
+		</data>
+		<key>Suisseintl-semibold.otf</key>
+		<data>
+		YZ9YWe+9XcZVc1fP2ex5axRDNfg=
 		</data>
 		<key>assets.bundle/arrowDown.pdf</key>
 		<data>
@@ -123,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZtD3Xw3u5rSZk52dW6c96ijw6GJ7YHQavZk2aomLbuk=
+			gAxtGddplb3SSJ+SWD8ntqKGkPRZCNNH/PO05XKLGOs=
 			</data>
 		</dict>
 		<key>GenerateXCFramework.sh</key>
@@ -137,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z79Vk5jo624+HWmrY2JDmBbtETZmfBbZ5QGwVeCKbZI=
+			Hi7pzpdyRE0iFRaRlT/SH3wTx7F+T6m7Dlz9vmdIBKE=
 			</data>
 		</dict>
 		<key>Headers/FrisbuyStoriesSDK.h</key>
@@ -179,35 +191,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zibm3hhMfglQtvzggbx/WbnGfz1Z9EWyMlcEblU0IfA=
+			CG3UzbIMnQeVmW1qOLj2SxOFQHsuphCaGsQxBD2MWHc=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xHjFhZowuNL4/Y+cEivE19LbceOGIujkFISHzm1Lb5Y=
+			3yjL7nLCJc9k/28p/cjjoU2oC2B2Ahm+1YEWjsNLrc4=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ieZg64PBsOron18Ib5IOBvKeD5fo4nXkjPKkolAxEc=
+			QqLY//gCEQewnjkvmF7emPMIxR21mifAZhoRMPKraq8=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xHjFhZowuNL4/Y+cEivE19LbceOGIujkFISHzm1Lb5Y=
+			3yjL7nLCJc9k/28p/cjjoU2oC2B2Ahm+1YEWjsNLrc4=
 			</data>
 		</dict>
 		<key>Modules/FrisbuyStoriesSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ABIGPGNTQPz4G+G8RA36e5Yjg6n3cjNEhwbUSge+6+4=
+			t4Md7Zda+9lWfybRrXEqApACySMpS0P6KYIRukuKvsg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -257,6 +269,27 @@
 			<key>hash2</key>
 			<data>
 			yjuvn8XzkZFksKTVd10xp+kVzrV9j6gmaNEqH6usmQE=
+			</data>
+		</dict>
+		<key>Suisseintl-medium.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NgnBs/qSmukTpuB2YKXCTDu/6nMJEWq8m6b0NRfKzdg=
+			</data>
+		</dict>
+		<key>Suisseintl-regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+N6tbQaz4HITjo2rRrYJN+fs7OBtiIy97pqfLOq7U4g=
+			</data>
+		</dict>
+		<key>Suisseintl-semibold.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+KDcshD/37LCK5XEQPTmpe47iFxIT0YJ9/JkwpwFuAg=
 			</data>
 		</dict>
 		<key>assets.bundle/arrowDown.pdf</key>
