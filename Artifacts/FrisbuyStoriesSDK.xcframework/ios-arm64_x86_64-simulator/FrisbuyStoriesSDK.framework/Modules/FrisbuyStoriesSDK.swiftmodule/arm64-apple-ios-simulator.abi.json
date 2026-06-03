@@ -5858,6 +5858,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -7628,6 +7635,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -11381,6 +11395,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -15105,6 +15126,13 @@
       },
       {
         "kind": "Import",
+        "name": "CoreText",
+        "printedName": "CoreText",
+        "declKind": "Import",
+        "moduleName": "FrisbuyStoriesSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -15618,6 +15646,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ExpressibleByImageLiteral",
             "printedName": "_ExpressibleByImageLiteral",
             "usr": "s:s26_ExpressibleByImageLiteralP",
@@ -15751,6 +15786,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -16151,6 +16193,13 @@
             "printedName": "_HasCustomAnyHashableRepresentation",
             "usr": "s:s35_HasCustomAnyHashableRepresentationP",
             "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -17862,7 +17911,7 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/AlbumDetailCVCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 61945,
+      "offset": 61705,
       "length": 1,
       "value": "2"
     },
@@ -19480,48 +19529,62 @@
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "Array",
       "offset": 518,
+      "length": 28,
+      "value": "[\"https:\/\/beta.frisbuy.com\"]"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
+      "kind": "Array",
+      "offset": 673,
       "length": 87,
       "value": "[\"https:\/\/api01.frisbuy.com\", \"https:\/\/api02.frisbuy.com\", \"https:\/\/api03.frisbuy.com\"]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 802,
+      "length": 21,
+      "value": "\"FavoriteResourceURL\""
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "Dictionary",
-      "offset": 1000,
+      "offset": 1218,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1020,
+      "offset": 1238,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1038,
+      "offset": 1256,
       "length": 35,
       "value": "\"application\/x-www-form-urlencoded\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1090,
+      "offset": 1308,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1102,
+      "offset": 1320,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "Array",
-      "offset": 1263,
+      "offset": 2632,
       "length": 2,
       "value": "[]"
     },
@@ -19983,44 +20046,72 @@
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
       "kind": "StringLiteral",
-      "offset": 148,
+      "offset": 164,
       "length": 6,
       "value": "\"link\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
       "kind": "StringLiteral",
-      "offset": 173,
+      "offset": 189,
       "length": 8,
       "value": "\"button\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
       "kind": "IntegerLiteral",
-      "offset": 504,
+      "offset": 520,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 634,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
       "kind": "IntegerLiteral",
-      "offset": 708,
+      "offset": 617,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
       "kind": "BooleanLiteral",
-      "offset": 931,
+      "offset": 803,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 877,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1100,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
+      "kind": "StringLiteral",
+      "offset": 16020,
+      "length": 31,
+      "value": "\"frisbuy.dynamic-font-provider\""
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
+      "kind": "Dictionary",
+      "offset": 16101,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/CallView.swift",
+      "kind": "Dictionary",
+      "offset": 16162,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/UI\/Cells\/MediaCVCell.swift",
