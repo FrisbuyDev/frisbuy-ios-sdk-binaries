@@ -19529,62 +19529,62 @@
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "Array",
       "offset": 518,
-      "length": 28,
-      "value": "[\"https:\/\/beta.frisbuy.com\"]"
+      "length": 87,
+      "value": "[\"https:\/\/api01.frisbuy.com\", \"https:\/\/api02.frisbuy.com\", \"https:\/\/api03.frisbuy.com\"]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "Array",
-      "offset": 673,
+      "offset": 644,
       "length": 87,
       "value": "[\"https:\/\/api01.frisbuy.com\", \"https:\/\/api02.frisbuy.com\", \"https:\/\/api03.frisbuy.com\"]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 802,
+      "offset": 773,
       "length": 21,
       "value": "\"FavoriteResourceURL\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "Dictionary",
-      "offset": 1218,
+      "offset": 1189,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1238,
+      "offset": 1209,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1256,
+      "offset": 1227,
       "length": 35,
       "value": "\"application\/x-www-form-urlencoded\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1308,
+      "offset": 1279,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1320,
+      "offset": 1291,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/i\/frisbuy-ios-sdk\/Sources\/Network\/NetworkService.swift",
       "kind": "Array",
-      "offset": 2632,
+      "offset": 2603,
       "length": 2,
       "value": "[]"
     },
