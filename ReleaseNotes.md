@@ -1,7 +1,6 @@
-## Tag 1.0.76
+## Tag 1.0.77
 
 ### Изменения
 
 
-- Добавлены новые форматы Call to Action
-- Исправлен баг с URL
+- fixed memory leak
