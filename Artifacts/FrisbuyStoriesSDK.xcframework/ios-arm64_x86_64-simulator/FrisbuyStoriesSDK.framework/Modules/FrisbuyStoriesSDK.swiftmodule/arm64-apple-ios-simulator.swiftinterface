@@ -122,7 +122,14 @@ public enum TemplateCell : Swift.String {
     get
   }
 }
+public enum FrisbuySDKLogger {
+  public static var isEnabled: Swift.Bool
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class FrisbuyStories : UIKit.UICollectionViewController {
+  @_Concurrency.MainActor @preconcurrency public static var isLoggingEnabled: Swift.Bool {
+    get
+    set
+  }
   @_Concurrency.MainActor @preconcurrency final public var dataReceived: ((Swift.Bool, Swift.Bool) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var clickedPost: ((Swift.String, Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var watchedPost: ((Swift.String, Swift.String) -> Swift.Void)?

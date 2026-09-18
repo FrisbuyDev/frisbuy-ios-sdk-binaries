@@ -1,6 +1,8 @@
-## Tag 1.0.77
+## Tag 1.0.78
 
 ### Изменения
 
 
-- fixed memory leak
+- fixed ad
+- fixed wide label of button
+- disable log
